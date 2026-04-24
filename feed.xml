@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:atom="http://www.w3.org/2005/Atom">
+
+  <channel>
+    <title>SHTG Daily Digest — Weiss Lab</title>
+    <link>https://d26qmx46pp-gif.github.io/shtg-podcast/</link>
+    <atom:link href="https://d26qmx46pp-gif.github.io/shtg-podcast/feed.xml" rel="self" type="application/rss+xml"/>
+    <description>Daily research digest on severe hypertriglyceridemia, ANGPTL3, ANGPTL4, APOC3, and lipoprotein lipase. Auto-generated from PubMed for Ethan Weiss.</description>
+    <language>en-us</language>
+    <copyright>Ethan Weiss / Marea Therapeutics</copyright>
+    <itunes:author>Ethan Weiss</itunes:author>
+    <itunes:email>eweiss@mareatx.com</itunes:email>
+    <itunes:owner>
+      <itunes:name>Ethan Weiss</itunes:name>
+      <itunes:email>eweiss@mareatx.com</itunes:email>
+    </itunes:owner>
+    <itunes:category text="Science"/>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <image>
+      <url>https://d26qmx46pp-gif.github.io/shtg-podcast/cover.jpg</url>
+      <title>SHTG Daily Digest</title>
+      <link>https://d26qmx46pp-gif.github.io/shtg-podcast/</link>
+    </image>
+    <itunes:image href="https://d26qmx46pp-gif.github.io/shtg-podcast/cover.jpg"/>
+
+    <!-- =================== EPISODES (newest first) =================== -->
+
+    <item>
+      <title>SHTG Digest — Friday April 24, 2026</title>
+      <description><![CDATA[
+        No top-tier journal hits this week. Second-tier highlights: plozasiran (APOC3 siRNA) cuts recurrent acute pancreatitis by 83% in FCS patients (PALISADE post-hoc); olezarsen meta-analysis confirms 48% TG reduction across 4 RCTs; ANGPTL3 inhibitor meta-analysis shows 73% remnant cholesterol reduction; two Nature Reviews Cardiology reviews on ANGPTL3 and ApoC-III implementation.
+      ]]></description>
+      <pubDate>Fri, 24 Apr 2026 06:00:00 +0000</pubDate>
+      <guid isPermaLink="false">shtg-digest-2026-04-24</guid>
+      <enclosure
+        url="https://d26qmx46pp-gif.github.io/shtg-podcast/episodes/shtg-podcast-2026-04-24.mp3"
+        length="3563520"
+        type="audio/mpeg"/>
+      <itunes:title>SHTG Digest — Friday April 24, 2026</itunes:title>
+      <itunes:duration>7:00</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <!-- Add new <item> blocks above this line, newest first -->
+
+  </channel>
+</rss>
