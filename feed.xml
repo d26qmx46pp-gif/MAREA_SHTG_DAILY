@@ -46,6 +46,22 @@
       <itunes:explicit>false</itunes:explicit>
     </item>
 
+    
+    <item>
+      <title>SHTG Digest — Tuesday April 28, 2026</title>
+      <description><![CDATA[The long-awaited 2026 ACC/AHA Dyslipidemia Guideline drops today in *Circulation*, while concurrent evidence on plozasiran, ANGPTL3 inhibition, and ApoC-III blockade reinforces that RNA-based triglyceride therapies are reshaping the clinical landscape for SHTG and residual cardiovascular risk.]]></description>
+      <pubDate>Tue, 28 Apr 2026 06:00:00 -0000</pubDate>
+      <guid isPermaLink="false">shtg-digest-2026-04-28</guid>
+      <enclosure
+        url="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/episodes/shtg-podcast-2026-04-28.mp3"
+        length="3302592"
+        type="audio/mpeg"/>
+      <itunes:title>SHTG Digest — Tuesday April 28, 2026</itunes:title>
+      <itunes:duration>7:00</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
     <!-- Add new <item> blocks above this line, newest first -->
 
   </channel>
