@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.apple.com/dtds/podcast-1.0.dtd"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Acromegaly Update</title>
+    <link>https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/shows/acromegaly-update/feed.xml</link>
+    <language>en-us</language>
+    <description><![CDATA[Weekly digest of new research on acromegaly — trials, therapies, and clinical updates.]]></description>
+    <itunes:author>Marea Therapeutics</itunes:author>
+    <itunes:summary><![CDATA[Weekly digest of new research on acromegaly — trials, therapies, and clinical updates.]]></itunes:summary>
+    <itunes:owner>
+      <itunes:name>Marea Therapeutics</itunes:name>
+      <itunes:email>noreply@mareatx.com</itunes:email>
+    </itunes:owner>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:category text="Science"><itunes:category text="Life Sciences"/></itunes:category>
+    <itunes:type>episodic</itunes:type>
+    <lastBuildDate>Tue, 28 Apr 2026 16:43:44 +0000</lastBuildDate>
+    <!-- Add new <item> blocks above this line, newest first -->
+  </channel>
+</rss>
