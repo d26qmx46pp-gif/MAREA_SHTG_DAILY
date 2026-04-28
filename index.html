@@ -2,95 +2,436 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Marea Podcasts</title>
+<title>Marea Research Podcasts</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-  :root { color-scheme: light dark; }
-  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 720px; margin: 2rem auto; padding: 0 1rem; line-height: 1.5; }
-  h1 { margin-bottom: 0.25rem; }
-  .sub { color: #666; margin-top: 0; }
-  .show { border: 1px solid #ddd; border-radius: 8px; padding: 1rem 1.25rem; margin: 0.75rem 0; }
-  .show h2 { margin: 0 0 0.25rem 0; font-size: 1.1rem; }
-  .show .desc { color: #555; font-size: 0.95rem; margin: 0.25rem 0; }
-  .show .feed { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0.85rem; word-break: break-all; }
-  .show .feed a { color: #0366d6; }
-  .empty { color: #888; font-style: italic; }
-  footer { color: #888; font-size: 0.85rem; margin-top: 2rem; border-top: 1px solid #eee; padding-top: 1rem; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --blue: #1a56a0;
+    --blue-light: #e8f0fb;
+    --teal: #0d9488;
+    --text: #1a1a2e;
+    --muted: #64748b;
+    --border: #e2e8f0;
+    --bg: #f8fafc;
+    --card: #ffffff;
+    --radius: 12px;
+  }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+  }
+
+  header {
+    background: var(--blue);
+    color: white;
+    padding: 2.5rem 2rem 2rem;
+  }
+
+  .header-inner {
+    max-width: 860px;
+    margin: 0 auto;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 1rem;
+  }
+
+  .logo-mark {
+    width: 36px; height: 36px;
+    background: white;
+    border-radius: 8px;
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 800;
+    color: var(--blue);
+    font-size: 16px;
+    letter-spacing: -1px;
+  }
+
+  .logo-name {
+    font-size: 1rem;
+    font-weight: 600;
+    opacity: 0.9;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  header h1 {
+    font-size: 1.9rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+  }
+
+  header p {
+    opacity: 0.8;
+    font-size: 1rem;
+    max-width: 520px;
+  }
+
+  main {
+    max-width: 860px;
+    margin: 2.5rem auto;
+    padding: 0 1.5rem;
+  }
+
+  .section-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 1rem;
+  }
+
+  .shows-grid {
+    display: grid;
+    gap: 1.25rem;
+  }
+
+  .show-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.5rem;
+    transition: box-shadow 0.15s;
+  }
+
+  .show-card:hover {
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  }
+
+  .show-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .show-icon {
+    width: 48px; height: 48px;
+    border-radius: 10px;
+    background: var(--blue-light);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 22px;
+    flex-shrink: 0;
+  }
+
+  .show-meta h2 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 0.15rem;
+  }
+
+  .show-meta .cadence {
+    font-size: 0.8rem;
+    color: var(--muted);
+    font-weight: 500;
+  }
+
+  .show-desc {
+    font-size: 0.92rem;
+    color: var(--muted);
+    line-height: 1.55;
+    margin-bottom: 1.25rem;
+  }
+
+  .latest-episode {
+    background: var(--bg);
+    border-radius: 8px;
+    padding: 0.9rem 1rem;
+    margin-bottom: 1.25rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+
+  .ep-play {
+    width: 36px; height: 36px;
+    border-radius: 50%;
+    background: var(--blue);
+    border: none;
+    cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+    transition: background 0.15s;
+  }
+  .ep-play:hover { background: #1344820; }
+  .ep-play svg { margin-left: 2px; }
+
+  .ep-info { flex: 1; min-width: 0; }
+  .ep-title {
+    font-size: 0.88rem;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: var(--text);
+  }
+  .ep-date {
+    font-size: 0.78rem;
+    color: var(--muted);
+    margin-top: 0.1rem;
+  }
+
+  .ep-loading {
+    font-size: 0.85rem;
+    color: var(--muted);
+    font-style: italic;
+  }
+
+  .subscribe-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+  }
+
+  .subscribe-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin-right: 0.25rem;
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 0.4rem 0.85rem;
+    border-radius: 6px;
+    font-size: 0.82rem;
+    font-weight: 600;
+    text-decoration: none;
+    border: 1.5px solid transparent;
+    cursor: pointer;
+    transition: all 0.15s;
+    white-space: nowrap;
+  }
+
+  .btn-apple {
+    background: #000;
+    color: white;
+    border-color: #000;
+  }
+  .btn-apple:hover { background: #222; }
+
+  .btn-overcast {
+    background: #fc7e0f;
+    color: white;
+    border-color: #fc7e0f;
+  }
+  .btn-overcast:hover { background: #e06d00; }
+
+  .btn-pocketcasts {
+    background: #f43e37;
+    color: white;
+    border-color: #f43e37;
+  }
+  .btn-pocketcasts:hover { background: #d42f29; }
+
+  .btn-rss {
+    background: white;
+    color: var(--muted);
+    border-color: var(--border);
+  }
+  .btn-rss:hover { border-color: #aaa; color: var(--text); }
+
+  .btn-copied {
+    background: var(--teal) !important;
+    color: white !important;
+    border-color: var(--teal) !important;
+  }
+
+  .no-episodes {
+    font-size: 0.85rem;
+    color: var(--muted);
+    font-style: italic;
+    padding: 0.75rem 0;
+  }
+
+  footer {
+    text-align: center;
+    padding: 3rem 1rem 2rem;
+    font-size: 0.8rem;
+    color: var(--muted);
+  }
+
+  footer a { color: var(--blue); text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+
+  audio { display: none; }
+
+  @media (max-width: 540px) {
+    header h1 { font-size: 1.5rem; }
+    .show-card { padding: 1.1rem; }
+  }
 </style>
 </head>
 <body>
-<h1>Marea Podcasts</h1>
-<p class="sub">Internal daily research digests, generated by Claude.</p>
 
-<h2 style="margin-top:2rem;">Available shows</h2>
-<div id="shows">Loading…</div>
+<header>
+  <div class="header-inner">
+    <div class="logo">
+      <div class="logo-mark">M</div>
+      <span class="logo-name">Marea Therapeutics</span>
+    </div>
+    <h1>Research Podcasts</h1>
+    <p>Auto-generated audio digests of the latest high-impact papers — delivered on a schedule, listenable anywhere.</p>
+  </div>
+</header>
+
+<main>
+  <p class="section-label">Active Shows</p>
+  <div class="shows-grid" id="shows-grid">
+    <!-- Cards injected by JS -->
+  </div>
+</main>
 
 <footer>
-  <p>To subscribe, copy a feed URL into your podcast app. Apple Podcasts: File → Follow a Show by URL. Overcast/Pocket Casts: search the URL.</p>
-  <p>To create a new show, run the <code>marea-podcast-maker</code> skill in Cowork.</p>
+  Built on Cowork &amp; GitHub Pages &nbsp;·&nbsp;
+  <a href="https://github.com/d26qmx46pp-gif/MAREA_SHTG_DAILY" target="_blank">View repo</a>
 </footer>
 
+<audio id="player"></audio>
+
 <script>
-const REPO = "d26qmx46pp-gif/MAREA_SHTG_DAILY";
-const PAGES_BASE = `https://${REPO.split("/")[0]}.github.io/${REPO.split("/")[1]}`;
+const BASE = 'https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY';
 
-async function loadShows() {
-  const container = document.getElementById("shows");
-  const list = [];
+const SHOWS = [
+  {
+    slug: 'shtg-daily',
+    title: 'SHTG Daily Digest',
+    description: 'Daily digest of high-impact papers on severe hypertriglyceridemia, ANGPTL3, ANGPTL4, ApoC3, and LPL — ranked by relevance and study type.',
+    cadence: 'Daily · 6:00 AM',
+    icon: '🧬',
+    feedUrl: `${BASE}/feed.xml`,
+  },
+  {
+    slug: 'acromegaly-update',
+    title: 'Acromegaly Update',
+    description: 'Weekly digest of new research on acromegaly — trials, therapies, and clinical updates.',
+    cadence: 'Weekly · Mondays',
+    icon: '🔬',
+    feedUrl: `${BASE}/shows/acromegaly-update/feed.xml`,
+  },
+];
 
-  // SHTG lives at the root of this repo for historical reasons.
-  list.push({
-    name: "SHTG Daily",
-    folder: "",
-    feedUrl: `${PAGES_BASE}/feed.xml`,
-  });
+const grid = document.getElementById('shows-grid');
+const player = document.getElementById('player');
+let currentBtn = null;
 
-  // Other shows live under shows/{name}/.
+async function fetchLatestEpisode(feedUrl) {
   try {
-    const resp = await fetch(`https://api.github.com/repos/${REPO}/contents/shows`);
-    if (resp.ok) {
-      const items = await resp.json();
-      for (const item of items) {
-        if (item.type !== "dir") continue;
-        list.push({
-          name: item.name,
-          folder: `shows/${item.name}`,
-          feedUrl: `${PAGES_BASE}/shows/${item.name}/feed.xml`,
-        });
-      }
-    }
-  } catch (e) { /* shows folder may not exist yet */ }
-
-  // Try to enrich each entry by reading its feed title/description.
-  await Promise.all(list.map(async (s) => {
-    try {
-      const r = await fetch(s.feedUrl);
-      if (!r.ok) return;
-      const xml = await r.text();
-      const title = xml.match(/<channel>[\s\S]*?<title>([^<]+)<\/title>/);
-      const desc = xml.match(/<channel>[\s\S]*?<description>(?:<!\[CDATA\[)?([^<\]]+)/);
-      if (title) s.title = title[1].trim();
-      if (desc) s.description = desc[1].trim();
-    } catch (e) { /* ignore */ }
-  }));
-
-  container.innerHTML = "";
-  if (list.length === 0) {
-    container.innerHTML = '<p class="empty">No shows yet.</p>';
-    return;
-  }
-  for (const s of list) {
-    const div = document.createElement("div");
-    div.className = "show";
-    div.innerHTML = `
-      <h2>${s.title || s.name}</h2>
-      ${s.description ? `<p class="desc">${s.description}</p>` : ""}
-      <p class="feed"><strong>RSS:</strong> <a href="${s.feedUrl}">${s.feedUrl}</a></p>
-    `;
-    container.appendChild(div);
+    const res = await fetch(feedUrl);
+    if (!res.ok) return null;
+    const text = await res.text();
+    const parser = new DOMParser();
+    const doc = parser.parseFromString(text, 'application/xml');
+    const item = doc.querySelector('item');
+    if (!item) return null;
+    const title = item.querySelector('title')?.textContent ?? '';
+    const pubDate = item.querySelector('pubDate')?.textContent ?? '';
+    const enclosure = item.querySelector('enclosure');
+    const audioUrl = enclosure?.getAttribute('url') ?? null;
+    const date = pubDate ? new Date(pubDate).toLocaleDateString('en-US', {month:'short', day:'numeric', year:'numeric'}) : '';
+    return { title, date, audioUrl };
+  } catch {
+    return null;
   }
 }
-loadShows();
+
+function copyToClipboard(text, btn) {
+  navigator.clipboard.writeText(text).then(() => {
+    btn.classList.add('btn-copied');
+    btn.textContent = '✓ Copied';
+    setTimeout(() => {
+      btn.classList.remove('btn-copied');
+      btn.textContent = 'Copy RSS';
+    }, 2000);
+  });
+}
+
+function togglePlay(audioUrl, btn) {
+  if (currentBtn && currentBtn !== btn) {
+    currentBtn.innerHTML = playIcon();
+    player.pause();
+  }
+  if (player.src === audioUrl && !player.paused) {
+    player.pause();
+    btn.innerHTML = playIcon();
+    currentBtn = null;
+  } else {
+    player.src = audioUrl;
+    player.play();
+    btn.innerHTML = pauseIcon();
+    currentBtn = btn;
+    player.onended = () => { btn.innerHTML = playIcon(); currentBtn = null; };
+  }
+}
+
+function playIcon() {
+  return `<svg width="12" height="14" viewBox="0 0 12 14" fill="white"><path d="M1 1l10 6L1 13V1z"/></svg>`;
+}
+function pauseIcon() {
+  return `<svg width="12" height="14" viewBox="0 0 12 14" fill="white"><rect x="1" y="1" width="4" height="12" rx="1"/><rect x="7" y="1" width="4" height="12" rx="1"/></svg>`;
+}
+
+async function renderShows() {
+  for (const show of SHOWS) {
+    const card = document.createElement('div');
+    card.className = 'show-card';
+
+    const epPlaceholder = `<div class="ep-loading">Loading latest episode…</div>`;
+
+    card.innerHTML = `
+      <div class="show-header">
+        <div class="show-icon">${show.icon}</div>
+        <div class="show-meta">
+          <h2>${show.title}</h2>
+          <span class="cadence">${show.cadence}</span>
+        </div>
+      </div>
+      <p class="show-desc">${show.description}</p>
+      <div class="latest-episode" id="ep-${show.slug}">${epPlaceholder}</div>
+      <div class="subscribe-row">
+        <span class="subscribe-label">Subscribe</span>
+        <a class="btn btn-apple" href="podcast://${show.feedUrl.replace('https://','')}">🎵 Apple Podcasts</a>
+        <a class="btn btn-overcast" href="overcast://x-callback-url/add?url=${encodeURIComponent(show.feedUrl)}">Overcast</a>
+        <a class="btn btn-pocketcasts" href="pktc://subscribe/${encodeURIComponent(show.feedUrl)}">Pocket Casts</a>
+        <button class="btn btn-rss" onclick="copyToClipboard('${show.feedUrl}', this)">Copy RSS</button>
+      </div>
+    `;
+    grid.appendChild(card);
+
+    // Async load latest episode
+    const ep = await fetchLatestEpisode(show.feedUrl);
+    const epDiv = document.getElementById(`ep-${show.slug}`);
+    if (ep) {
+      epDiv.innerHTML = `
+        ${ep.audioUrl ? `<button class="ep-play" onclick="togglePlay('${ep.audioUrl}', this)" title="Play">${playIcon()}</button>` : ''}
+        <div class="ep-info">
+          <div class="ep-title">${ep.title}</div>
+          <div class="ep-date">${ep.date}</div>
+        </div>
+      `;
+    } else {
+      epDiv.innerHTML = `<span class="no-episodes">No episodes yet — first episode generates on next scheduled run.</span>`;
+    }
+  }
+}
+
+renderShows();
 </script>
 </body>
 </html>
