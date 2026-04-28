@@ -6,9 +6,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
-
   :root {
     --blue: #1a56a0;
+    --blue-dark: #0f3a72;
     --blue-light: #e8f0fb;
     --teal: #0d9488;
     --text: #1a1a2e;
@@ -18,264 +18,99 @@
     --card: #ffffff;
     --radius: 12px;
   }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; }
 
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-    background: var(--bg);
-    color: var(--text);
-    min-height: 100vh;
-  }
+  header { background: var(--blue); color: white; padding: 2.5rem 2rem 2rem; }
+  .header-inner { max-width: 860px; margin: 0 auto; }
+  .logo { display: flex; align-items: center; gap: 10px; margin-bottom: 1rem; }
+  .logo-mark { width: 36px; height: 36px; background: white; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-weight: 800; color: var(--blue); font-size: 16px; letter-spacing: -1px; }
+  .logo-name { font-size: 1rem; font-weight: 600; opacity: 0.9; letter-spacing: 0.04em; text-transform: uppercase; }
+  header h1 { font-size: 1.9rem; font-weight: 700; line-height: 1.2; margin-bottom: 0.5rem; }
+  header p { opacity: 0.8; font-size: 1rem; max-width: 520px; }
 
-  header {
-    background: var(--blue);
-    color: white;
-    padding: 2.5rem 2rem 2rem;
-  }
+  main { max-width: 860px; margin: 2.5rem auto; padding: 0 1.5rem; }
 
-  .header-inner {
-    max-width: 860px;
-    margin: 0 auto;
-  }
+  .section-label { font-size: 0.75rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin-bottom: 1rem; }
 
-  .logo {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 1rem;
-  }
+  .shows-grid { display: grid; gap: 1.25rem; margin-bottom: 3rem; }
 
-  .logo-mark {
-    width: 36px; height: 36px;
-    background: white;
-    border-radius: 8px;
-    display: flex; align-items: center; justify-content: center;
-    font-weight: 800;
-    color: var(--blue);
-    font-size: 16px;
-    letter-spacing: -1px;
-  }
+  .show-card { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.5rem; transition: box-shadow 0.15s; }
+  .show-card:hover { box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
+  .show-header { display: flex; align-items: flex-start; gap: 1rem; margin-bottom: 1rem; }
+  .show-icon { width: 48px; height: 48px; border-radius: 10px; background: var(--blue-light); display: flex; align-items: center; justify-content: center; font-size: 22px; flex-shrink: 0; }
+  .show-meta h2 { font-size: 1.1rem; font-weight: 700; color: var(--text); margin-bottom: 0.15rem; }
+  .show-meta .cadence { font-size: 0.8rem; color: var(--muted); font-weight: 500; }
+  .show-desc { font-size: 0.92rem; color: var(--muted); line-height: 1.55; margin-bottom: 1.25rem; }
 
-  .logo-name {
-    font-size: 1rem;
-    font-weight: 600;
-    opacity: 0.9;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-  }
-
-  header h1 {
-    font-size: 1.9rem;
-    font-weight: 700;
-    line-height: 1.2;
-    margin-bottom: 0.5rem;
-  }
-
-  header p {
-    opacity: 0.8;
-    font-size: 1rem;
-    max-width: 520px;
-  }
-
-  main {
-    max-width: 860px;
-    margin: 2.5rem auto;
-    padding: 0 1.5rem;
-  }
-
-  .section-label {
-    font-size: 0.75rem;
-    font-weight: 600;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: var(--muted);
-    margin-bottom: 1rem;
-  }
-
-  .shows-grid {
-    display: grid;
-    gap: 1.25rem;
-  }
-
-  .show-card {
-    background: var(--card);
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    padding: 1.5rem;
-    transition: box-shadow 0.15s;
-  }
-
-  .show-card:hover {
-    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
-  }
-
-  .show-header {
-    display: flex;
-    align-items: flex-start;
-    gap: 1rem;
-    margin-bottom: 1rem;
-  }
-
-  .show-icon {
-    width: 48px; height: 48px;
-    border-radius: 10px;
-    background: var(--blue-light);
-    display: flex; align-items: center; justify-content: center;
-    font-size: 22px;
-    flex-shrink: 0;
-  }
-
-  .show-meta h2 {
-    font-size: 1.1rem;
-    font-weight: 700;
-    color: var(--text);
-    margin-bottom: 0.15rem;
-  }
-
-  .show-meta .cadence {
-    font-size: 0.8rem;
-    color: var(--muted);
-    font-weight: 500;
-  }
-
-  .show-desc {
-    font-size: 0.92rem;
-    color: var(--muted);
-    line-height: 1.55;
-    margin-bottom: 1.25rem;
-  }
-
-  .latest-episode {
-    background: var(--bg);
-    border-radius: 8px;
-    padding: 0.9rem 1rem;
-    margin-bottom: 1.25rem;
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-  }
-
-  .ep-play {
-    width: 36px; height: 36px;
-    border-radius: 50%;
-    background: var(--blue);
-    border: none;
-    cursor: pointer;
-    display: flex; align-items: center; justify-content: center;
-    flex-shrink: 0;
-    transition: background 0.15s;
-  }
-  .ep-play:hover { background: #1344820; }
+  .latest-episode { background: var(--bg); border-radius: 8px; padding: 0.9rem 1rem; margin-bottom: 1.25rem; display: flex; align-items: center; gap: 0.75rem; }
+  .ep-play { width: 36px; height: 36px; border-radius: 50%; background: var(--blue); border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; flex-shrink: 0; transition: background 0.15s; }
+  .ep-play:hover { background: var(--blue-dark); }
   .ep-play svg { margin-left: 2px; }
-
   .ep-info { flex: 1; min-width: 0; }
-  .ep-title {
-    font-size: 0.88rem;
-    font-weight: 600;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    color: var(--text);
-  }
-  .ep-date {
-    font-size: 0.78rem;
-    color: var(--muted);
-    margin-top: 0.1rem;
-  }
+  .ep-title { font-size: 0.88rem; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: var(--text); }
+  .ep-date { font-size: 0.78rem; color: var(--muted); margin-top: 0.1rem; }
+  .ep-loading { font-size: 0.85rem; color: var(--muted); font-style: italic; }
 
-  .ep-loading {
-    font-size: 0.85rem;
-    color: var(--muted);
-    font-style: italic;
-  }
-
-  .subscribe-row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    align-items: center;
-  }
-
-  .subscribe-label {
-    font-size: 0.75rem;
-    font-weight: 600;
-    color: var(--muted);
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-    margin-right: 0.25rem;
-  }
-
-  .btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 5px;
-    padding: 0.4rem 0.85rem;
-    border-radius: 6px;
-    font-size: 0.82rem;
-    font-weight: 600;
-    text-decoration: none;
-    border: 1.5px solid transparent;
-    cursor: pointer;
-    transition: all 0.15s;
-    white-space: nowrap;
-  }
-
-  .btn-apple {
-    background: #000;
-    color: white;
-    border-color: #000;
-  }
+  .subscribe-row { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; }
+  .subscribe-label { font-size: 0.75rem; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; margin-right: 0.25rem; }
+  .btn { display: inline-flex; align-items: center; gap: 5px; padding: 0.4rem 0.85rem; border-radius: 6px; font-size: 0.82rem; font-weight: 600; text-decoration: none; border: 1.5px solid transparent; cursor: pointer; transition: all 0.15s; white-space: nowrap; }
+  .btn-apple { background: #000; color: white; border-color: #000; }
   .btn-apple:hover { background: #222; }
-
-  .btn-overcast {
-    background: #fc7e0f;
-    color: white;
-    border-color: #fc7e0f;
-  }
+  .btn-overcast { background: #fc7e0f; color: white; border-color: #fc7e0f; }
   .btn-overcast:hover { background: #e06d00; }
-
-  .btn-pocketcasts {
-    background: #f43e37;
-    color: white;
-    border-color: #f43e37;
-  }
+  .btn-pocketcasts { background: #f43e37; color: white; border-color: #f43e37; }
   .btn-pocketcasts:hover { background: #d42f29; }
-
-  .btn-rss {
-    background: white;
-    color: var(--muted);
-    border-color: var(--border);
-  }
+  .btn-rss { background: white; color: var(--muted); border-color: var(--border); }
   .btn-rss:hover { border-color: #aaa; color: var(--text); }
+  .btn-copied { background: var(--teal) !important; color: white !important; border-color: var(--teal) !important; }
+  .no-episodes { font-size: 0.85rem; color: var(--muted); font-style: italic; padding: 0.75rem 0; }
 
-  .btn-copied {
-    background: var(--teal) !important;
-    color: white !important;
-    border-color: var(--teal) !important;
+  /* Start a show section */
+  .start-section { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; margin-bottom: 3rem; }
+  .start-header { background: var(--blue-dark); color: white; padding: 1.5rem; }
+  .start-header h2 { font-size: 1.2rem; font-weight: 700; margin-bottom: 0.3rem; }
+  .start-header p { opacity: 0.8; font-size: 0.92rem; }
+
+  .start-paths { display: grid; grid-template-columns: 1fr 1fr; gap: 0; }
+  @media (max-width: 600px) { .start-paths { grid-template-columns: 1fr; } }
+
+  .path { padding: 1.5rem; }
+  .path + .path { border-left: 1px solid var(--border); }
+  @media (max-width: 600px) { .path + .path { border-left: none; border-top: 1px solid var(--border); } }
+
+  .path-badge { display: inline-block; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 0.2rem 0.6rem; border-radius: 4px; margin-bottom: 0.75rem; }
+  .badge-cowork { background: var(--blue-light); color: var(--blue); }
+  .badge-request { background: #f0fdf4; color: #15803d; }
+
+  .path h3 { font-size: 1rem; font-weight: 700; margin-bottom: 0.4rem; }
+  .path p { font-size: 0.88rem; color: var(--muted); line-height: 1.5; margin-bottom: 1rem; }
+
+  .steps { list-style: none; margin-bottom: 1.25rem; counter-reset: steps; }
+  .steps li { font-size: 0.85rem; color: var(--muted); padding: 0.3rem 0 0.3rem 1.75rem; position: relative; counter-increment: steps; }
+  .steps li::before { content: counter(steps); position: absolute; left: 0; top: 0.3rem; width: 18px; height: 18px; background: var(--blue-light); color: var(--blue); border-radius: 50%; font-size: 0.7rem; font-weight: 700; display: flex; align-items: center; justify-content: center; }
+
+  .btn-primary { display: inline-flex; align-items: center; gap: 6px; padding: 0.55rem 1.1rem; border-radius: 7px; font-size: 0.88rem; font-weight: 600; text-decoration: none; background: var(--blue); color: white; border: none; cursor: pointer; transition: background 0.15s; }
+  .btn-primary:hover { background: var(--blue-dark); }
+  .btn-secondary { display: inline-flex; align-items: center; gap: 6px; padding: 0.55rem 1.1rem; border-radius: 7px; font-size: 0.88rem; font-weight: 600; background: white; color: var(--blue); border: 1.5px solid var(--blue); cursor: pointer; transition: all 0.15s; }
+  .btn-secondary:hover { background: var(--blue-light); }
+
+  /* Request form */
+  .request-form { display: none; }
+  .request-form.open { display: block; }
+  .form-field { margin-bottom: 0.85rem; }
+  .form-field label { display: block; font-size: 0.78rem; font-weight: 600; color: var(--text); margin-bottom: 0.3rem; }
+  .form-field input, .form-field textarea, .form-field select {
+    width: 100%; padding: 0.5rem 0.7rem; border: 1.5px solid var(--border); border-radius: 6px;
+    font-size: 0.88rem; font-family: inherit; color: var(--text); background: white;
+    transition: border-color 0.15s;
   }
+  .form-field input:focus, .form-field textarea:focus, .form-field select:focus { outline: none; border-color: var(--blue); }
+  .form-field textarea { resize: vertical; min-height: 70px; }
 
-  .no-episodes {
-    font-size: 0.85rem;
-    color: var(--muted);
-    font-style: italic;
-    padding: 0.75rem 0;
-  }
-
-  footer {
-    text-align: center;
-    padding: 3rem 1rem 2rem;
-    font-size: 0.8rem;
-    color: var(--muted);
-  }
-
+  footer { text-align: center; padding: 3rem 1rem 2rem; font-size: 0.8rem; color: var(--muted); }
   footer a { color: var(--blue); text-decoration: none; }
   footer a:hover { text-decoration: underline; }
-
   audio { display: none; }
-
-  @media (max-width: 540px) {
-    header h1 { font-size: 1.5rem; }
-    .show-card { padding: 1.1rem; }
-  }
 </style>
 </head>
 <body>
@@ -293,8 +128,63 @@
 
 <main>
   <p class="section-label">Active Shows</p>
-  <div class="shows-grid" id="shows-grid">
-    <!-- Cards injected by JS -->
+  <div class="shows-grid" id="shows-grid"></div>
+
+  <p class="section-label">Start Your Own Show</p>
+  <div class="start-section">
+    <div class="start-header">
+      <h2>🎙️ Launch a podcast on any research topic</h2>
+      <p>Pick a topic. We handle the PubMed search, paper selection, script writing, audio generation, and publishing — automatically, on whatever schedule you choose.</p>
+    </div>
+    <div class="start-paths">
+
+      <div class="path">
+        <span class="path-badge badge-cowork">Have Cowork?</span>
+        <h3>Set it up yourself in 2 min</h3>
+        <p>Install the skill, open a new chat, and tell Claude what you want to follow. No code, no config.</p>
+        <ol class="steps">
+          <li>Download and drag the skill file into any Cowork chat</li>
+          <li>Click <strong>Save skill</strong> when prompted</li>
+          <li>Open a new chat and say <em>"I want a weekly podcast about [your topic]"</em></li>
+          <li>Claude handles the rest — query, schedule, feed, audio</li>
+        </ol>
+        <a class="btn-primary" href="https://raw.githubusercontent.com/d26qmx46pp-gif/MAREA_SHTG_DAILY/main/marea-podcast-maker.skill" download>
+          ⬇ Download skill
+        </a>
+      </div>
+
+      <div class="path">
+        <span class="path-badge badge-request">Don't have Cowork?</span>
+        <h3>Request a show</h3>
+        <p>Fill in the form below and Ethan will set it up for you — usually within a day.</p>
+        <button class="btn-secondary" onclick="toggleForm(this)">Request a show →</button>
+        <div class="request-form" id="request-form">
+          <br>
+          <div class="form-field">
+            <label>Your name</label>
+            <input type="text" id="req-name" placeholder="e.g. Sarah Kim">
+          </div>
+          <div class="form-field">
+            <label>Your email</label>
+            <input type="email" id="req-email" placeholder="you@mareatx.com">
+          </div>
+          <div class="form-field">
+            <label>Topic / research area</label>
+            <textarea id="req-topic" placeholder="e.g. Weekly digest of GLP-1 receptor agonist trials and mechanism papers"></textarea>
+          </div>
+          <div class="form-field">
+            <label>Preferred cadence</label>
+            <select id="req-cadence">
+              <option>Daily</option>
+              <option selected>Weekly</option>
+              <option>Twice a week</option>
+            </select>
+          </div>
+          <button class="btn-primary" onclick="submitRequest()" style="margin-top:0.5rem">Send request</button>
+        </div>
+      </div>
+
+    </div>
   </div>
 </main>
 
@@ -315,7 +205,7 @@ const SHOWS = [
     description: 'Daily digest of high-impact papers on severe hypertriglyceridemia, ANGPTL3, ANGPTL4, ApoC3, and LPL — ranked by relevance and study type.',
     cadence: 'Daily · 6:00 AM',
     icon: '🧬',
-    feedUrl: `${BASE}/feed.xml`,
+    feedUrl: BASE + '/feed.xml',
   },
   {
     slug: 'acromegaly-update',
@@ -323,7 +213,7 @@ const SHOWS = [
     description: 'Weekly digest of new research on acromegaly — trials, therapies, and clinical updates.',
     cadence: 'Weekly · Mondays',
     icon: '🔬',
-    feedUrl: `${BASE}/shows/acromegaly-update/feed.xml`,
+    feedUrl: BASE + '/shows/acromegaly-update/feed.xml',
   },
 ];
 
@@ -331,13 +221,15 @@ const grid = document.getElementById('shows-grid');
 const player = document.getElementById('player');
 let currentBtn = null;
 
+function playIcon() { return '<svg width="12" height="14" viewBox="0 0 12 14" fill="white"><path d="M1 1l10 6L1 13V1z"/></svg>'; }
+function pauseIcon() { return '<svg width="12" height="14" viewBox="0 0 12 14" fill="white"><rect x="1" y="1" width="4" height="12" rx="1"/><rect x="7" y="1" width="4" height="12" rx="1"/></svg>'; }
+
 async function fetchLatestEpisode(feedUrl) {
   try {
     const res = await fetch(feedUrl);
     if (!res.ok) return null;
     const text = await res.text();
-    const parser = new DOMParser();
-    const doc = parser.parseFromString(text, 'application/xml');
+    const doc = new DOMParser().parseFromString(text, 'application/xml');
     const item = doc.querySelector('item');
     if (!item) return null;
     const title = item.querySelector('title')?.textContent ?? '';
@@ -346,54 +238,48 @@ async function fetchLatestEpisode(feedUrl) {
     const audioUrl = enclosure?.getAttribute('url') ?? null;
     const date = pubDate ? new Date(pubDate).toLocaleDateString('en-US', {month:'short', day:'numeric', year:'numeric'}) : '';
     return { title, date, audioUrl };
-  } catch {
-    return null;
-  }
+  } catch { return null; }
 }
 
 function copyToClipboard(text, btn) {
   navigator.clipboard.writeText(text).then(() => {
     btn.classList.add('btn-copied');
     btn.textContent = '✓ Copied';
-    setTimeout(() => {
-      btn.classList.remove('btn-copied');
-      btn.textContent = 'Copy RSS';
-    }, 2000);
+    setTimeout(() => { btn.classList.remove('btn-copied'); btn.textContent = 'Copy RSS'; }, 2000);
   });
 }
 
 function togglePlay(audioUrl, btn) {
-  if (currentBtn && currentBtn !== btn) {
-    currentBtn.innerHTML = playIcon();
-    player.pause();
-  }
+  if (currentBtn && currentBtn !== btn) { currentBtn.innerHTML = playIcon(); player.pause(); }
   if (player.src === audioUrl && !player.paused) {
-    player.pause();
-    btn.innerHTML = playIcon();
-    currentBtn = null;
+    player.pause(); btn.innerHTML = playIcon(); currentBtn = null;
   } else {
-    player.src = audioUrl;
-    player.play();
-    btn.innerHTML = pauseIcon();
-    currentBtn = btn;
+    player.src = audioUrl; player.play();
+    btn.innerHTML = pauseIcon(); currentBtn = btn;
     player.onended = () => { btn.innerHTML = playIcon(); currentBtn = null; };
   }
 }
 
-function playIcon() {
-  return `<svg width="12" height="14" viewBox="0 0 12 14" fill="white"><path d="M1 1l10 6L1 13V1z"/></svg>`;
+function toggleForm(btn) {
+  const form = document.getElementById('request-form');
+  form.classList.toggle('open');
+  btn.textContent = form.classList.contains('open') ? 'Never mind ×' : 'Request a show →';
 }
-function pauseIcon() {
-  return `<svg width="12" height="14" viewBox="0 0 12 14" fill="white"><rect x="1" y="1" width="4" height="12" rx="1"/><rect x="7" y="1" width="4" height="12" rx="1"/></svg>`;
+
+function submitRequest() {
+  const name = document.getElementById('req-name').value.trim();
+  const email = document.getElementById('req-email').value.trim();
+  const topic = document.getElementById('req-topic').value.trim();
+  const cadence = document.getElementById('req-cadence').value;
+  if (!name || !topic) { alert('Please fill in your name and topic.'); return; }
+  const body = `Hi Ethan,\n\nI'd like to request a new Marea Research Podcast:\n\nName: ${name}\nEmail: ${email}\nTopic: ${topic}\nCadence: ${cadence}\n\nThanks!`;
+  window.location.href = 'mailto:eweiss@mareatx.com?subject=' + encodeURIComponent('Podcast request: ' + topic.slice(0,50)) + '&body=' + encodeURIComponent(body);
 }
 
 async function renderShows() {
   for (const show of SHOWS) {
     const card = document.createElement('div');
     card.className = 'show-card';
-
-    const epPlaceholder = `<div class="ep-loading">Loading latest episode…</div>`;
-
     card.innerHTML = `
       <div class="show-header">
         <div class="show-icon">${show.icon}</div>
@@ -403,30 +289,27 @@ async function renderShows() {
         </div>
       </div>
       <p class="show-desc">${show.description}</p>
-      <div class="latest-episode" id="ep-${show.slug}">${epPlaceholder}</div>
+      <div class="latest-episode" id="ep-${show.slug}"><span class="ep-loading">Loading latest episode…</span></div>
       <div class="subscribe-row">
         <span class="subscribe-label">Subscribe</span>
         <a class="btn btn-apple" href="podcast://${show.feedUrl.replace('https://','')}">🎵 Apple Podcasts</a>
         <a class="btn btn-overcast" href="overcast://x-callback-url/add?url=${encodeURIComponent(show.feedUrl)}">Overcast</a>
         <a class="btn btn-pocketcasts" href="pktc://subscribe/${encodeURIComponent(show.feedUrl)}">Pocket Casts</a>
         <button class="btn btn-rss" onclick="copyToClipboard('${show.feedUrl}', this)">Copy RSS</button>
-      </div>
-    `;
+      </div>`;
     grid.appendChild(card);
 
-    // Async load latest episode
     const ep = await fetchLatestEpisode(show.feedUrl);
-    const epDiv = document.getElementById(`ep-${show.slug}`);
+    const epDiv = document.getElementById('ep-' + show.slug);
     if (ep) {
       epDiv.innerHTML = `
-        ${ep.audioUrl ? `<button class="ep-play" onclick="togglePlay('${ep.audioUrl}', this)" title="Play">${playIcon()}</button>` : ''}
+        ${ep.audioUrl ? `<button class="ep-play" onclick="togglePlay('${ep.audioUrl}', this)">${playIcon()}</button>` : ''}
         <div class="ep-info">
           <div class="ep-title">${ep.title}</div>
           <div class="ep-date">${ep.date}</div>
-        </div>
-      `;
+        </div>`;
     } else {
-      epDiv.innerHTML = `<span class="no-episodes">No episodes yet — first episode generates on next scheduled run.</span>`;
+      epDiv.innerHTML = '<span class="no-episodes">No episodes yet — generates on next scheduled run.</span>';
     }
   }
 }
