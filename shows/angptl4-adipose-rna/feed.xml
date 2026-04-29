@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ANGPTL4 & Adipose RNA Update</title>
+    <link>https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/shows/angptl4-adipose-rna/</link>
+    <language>en-us</language>
+    <itunes:author>Marea</itunes:author>
+    <description>Weekly digest of ANGPTL4 biology/therapeutics and adipose-targeted RNA delivery.</description>
+    <itunes:summary>Weekly digest of ANGPTL4 biology/therapeutics and adipose-targeted RNA delivery.</itunes:summary>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:category text="Science"/>
+    <pubDate>Wed, 29 Apr 2026 06:00:00 -0000</pubDate>
+    <!-- Add new <item> blocks above this line, newest first -->
+  </channel>
+</rss>
