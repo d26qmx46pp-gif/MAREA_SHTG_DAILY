@@ -62,6 +62,22 @@
       <itunes:explicit>false</itunes:explicit>
     </item>
 
+    
+    <item>
+      <title>SHTG Digest — Wednesday April 29, 2026</title>
+      <description><![CDATA[A landmark week — the ACC/AHA released the first major U.S. dyslipidemia guideline since 2018, plozasiran's PALISADE post-hoc shows it prevents recurrent pancreatitis in very severe hypertriglyceridemia (and now has its first regulatory approval), and two new Nature Reviews Cardiology pieces frame the next phase for ApoC-III– and ANGPTL3-directed therapies.]]></description>
+      <pubDate>Wed, 29 Apr 2026 06:00:00 -0000</pubDate>
+      <guid isPermaLink="false">shtg-digest-2026-04-29</guid>
+      <enclosure
+        url="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/episodes/shtg-podcast-2026-04-29.mp3"
+        length="7255680"
+        type="audio/mpeg"/>
+      <itunes:title>SHTG Digest — Wednesday April 29, 2026</itunes:title>
+      <itunes:duration>7:00</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
     <!-- Add new <item> blocks above this line, newest first -->
 
   </channel>
