@@ -10,6 +10,22 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Science"/>
     <pubDate>Wed, 29 Apr 2026 06:00:00 -0000</pubDate>
+    
+    <item>
+      <title>ANGPTL4 & Adipose RNA Update — Wednesday April 29, 2026</title>
+      <description><![CDATA[ANGPTL4 expanded its footprint in diabetic complications this week — strong mechanistic data implicating it in proliferative diabetic retinopathy and a new review on its role in diabetic nephropathy — alongside cancer angiogenesis, lung-injury cytoprotection, and head-and-neck SCC prognosis. No new adipose-targeted RNA delivery papers (siRNA/ASO/LNP/GalNAc) appeared in the lookback window.]]></description>
+      <pubDate>Wed, 29 Apr 2026 06:00:00 -0000</pubDate>
+      <guid isPermaLink="false">angptl4-adipose-rna-2026-04-29</guid>
+      <enclosure
+        url="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/shows/angptl4-adipose-rna/episodes/2026-04-29.mp3"
+        length="4273152"
+        type="audio/mpeg"/>
+      <itunes:title>ANGPTL4 & Adipose RNA Update — Wednesday April 29, 2026</itunes:title>
+      <itunes:duration>7:00</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
     <!-- Add new <item> blocks above this line, newest first -->
   </channel>
 </rss>
