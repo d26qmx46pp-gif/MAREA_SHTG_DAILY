@@ -1,23 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"
-     xmlns:itunes="http://www.itunes.apple.com/dtds/podcast-1.0.dtd"
-     xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:atom="http://www.w3.org/2005/Atom">
+
   <channel>
     <title>Acromegaly Update</title>
-    <link>https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/shows/acromegaly-update/feed.xml</link>
+    <link>https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/shows/acromegaly-update/</link>
+    <atom:link href="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/shows/acromegaly-update/feed.xml" rel="self" type="application/rss+xml"/>
+    <description>Weekly digest of new research on acromegaly — trials, therapies, and clinical updates.</description>
     <language>en-us</language>
-    <description><![CDATA[Weekly digest of new research on acromegaly — trials, therapies, and clinical updates.]]></description>
-    <itunes:author>Marea Therapeutics</itunes:author>
-    <itunes:summary><![CDATA[Weekly digest of new research on acromegaly — trials, therapies, and clinical updates.]]></itunes:summary>
+    <copyright>Ethan Weiss / Marea Therapeutics</copyright>
+    <itunes:author>Ethan Weiss</itunes:author>
+    <itunes:email>eweiss@mareatx.com</itunes:email>
     <itunes:owner>
-      <itunes:name>Marea Therapeutics</itunes:name>
-      <itunes:email>noreply@mareatx.com</itunes:email>
+      <itunes:name>Ethan Weiss</itunes:name>
+      <itunes:email>eweiss@mareatx.com</itunes:email>
     </itunes:owner>
-    <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Science"><itunes:category text="Life Sciences"/></itunes:category>
+    <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
-    <lastBuildDate>Tue, 28 Apr 2026 16:43:44 +0000</lastBuildDate>
-    
+    <image>
+      <url>https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/shows/acromegaly-update/cover.jpg</url>
+      <title>Acromegaly Update</title>
+      <link>https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/shows/acromegaly-update/</link>
+    </image>
+    <itunes:image href="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/shows/acromegaly-update/cover.jpg"/>
+
     <item>
       <title>Acromegaly Update — Tuesday April 28, 2026</title>
       <description><![CDATA[This week's acromegaly literature is headlined by a landmark cardiovascular disease review in *Endocrine Reviews* and a cluster of high-yield JCEM papers covering biomarker-guided therapy, standardized pituitary imaging, patient-reported quality of life, and histological predictors of surgical remission.]]></description>
