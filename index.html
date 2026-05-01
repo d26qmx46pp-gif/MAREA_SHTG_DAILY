@@ -503,6 +503,9 @@ async function renderShows() {
         <a class="btn btn-overcast" href="overcast://x-callback-url/add?url=${encodeURIComponent(show.feedUrl)}">Overcast</a>
         <a class="btn btn-pocketcasts" href="pktc://subscribe/${encodeURIComponent(show.feedUrl)}">Pocket Casts</a>
         <button class="btn btn-rss" onclick="copyToClipboard('${show.feedUrl}', this)">Copy RSS</button>
+      </div>
+      <div class="references-row" style="margin-top:0.85rem;padding-top:0.85rem;border-top:1px solid var(--border);font-size:0.88rem">
+        <a href="references.html#show-${show.slug}" style="color:var(--teal-dark);text-decoration:none;font-weight:500">View references →</a>
       </div>`;
     grid.appendChild(card);
 
