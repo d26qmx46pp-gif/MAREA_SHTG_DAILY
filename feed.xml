@@ -26,37 +26,32 @@
       <link>https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/</link>
     </image>
     <itunes:image href="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/cover.jpg"/>
-
-    <!-- =================== EPISODES (newest first) =================== -->
-
+    <!-- Add new <item> blocks below this line, newest first -->
     <item>
-      <title>SHTG Digest — Friday April 24, 2026</title>
-      <description><![CDATA[
-        No top-tier journal hits this week. Second-tier highlights: plozasiran (APOC3 siRNA) cuts recurrent acute pancreatitis by 83% in FCS patients (PALISADE post-hoc); olezarsen meta-analysis confirms 48% TG reduction across 4 RCTs; ANGPTL3 inhibitor meta-analysis shows 73% remnant cholesterol reduction; two Nature Reviews Cardiology reviews on ANGPTL3 and ApoC-III implementation.
-      ]]></description>
-      <pubDate>Fri, 24 Apr 2026 06:00:00 +0000</pubDate>
-      <guid isPermaLink="false">shtg-digest-2026-04-24</guid>
+      <title>SHTG Digest — Friday May 1, 2026</title>
+      <description><![CDATA[A thin original-research week, but two genuinely high-impact items: the new joint 2026 ACC/AHA dyslipidemia guideline (which now formally addresses hypertriglyceridemia and Lp(a) alongside LDL-C), and three published letters in NEJM debating the CORE-TIMI 72a/b olezarsen trial — including the Marston/Bergmark/Sabatine reply.]]></description>
+      <pubDate>Fri, 01 May 2026 06:00:00 -0000</pubDate>
+      <guid isPermaLink="false">shtg-digest-2026-05-01</guid>
       <enclosure
-        url="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/episodes/MAREA_SHTG_DAILY-2026-04-24.mp3"
-        length="3563520"
+        url="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/episodes/shtg-podcast-2026-05-01.mp3"
+        length="7450080"
         type="audio/mpeg"/>
-      <itunes:title>SHTG Digest — Friday April 24, 2026</itunes:title>
+      <itunes:title>SHTG Digest — Friday May 1, 2026</itunes:title>
       <itunes:duration>7:00</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
 
-    
     <item>
-      <title>SHTG Digest — Tuesday April 28, 2026</title>
-      <description><![CDATA[The long-awaited 2026 ACC/AHA Dyslipidemia Guideline drops today in *Circulation*, while concurrent evidence on plozasiran, ANGPTL3 inhibition, and ApoC-III blockade reinforces that RNA-based triglyceride therapies are reshaping the clinical landscape for SHTG and residual cardiovascular risk.]]></description>
-      <pubDate>Tue, 28 Apr 2026 06:00:00 -0000</pubDate>
-      <guid isPermaLink="false">shtg-digest-2026-04-28</guid>
+      <title>SHTG Digest — Thursday April 30, 2026</title>
+      <description><![CDATA[A thin but consequential week — the new 2026 ACC/AHA dyslipidemia guideline lands in *Circulation* and explicitly folds hypertriglyceridemia into the cholesterol-management framework, while *NEJM* publishes a correspondence cluster pressure-testing the pancreatitis-risk findings of the pivotal olezarsen (APOC3) trial.]]></description>
+      <pubDate>Thu, 30 Apr 2026 06:00:00 -0000</pubDate>
+      <guid isPermaLink="false">shtg-digest-2026-04-30</guid>
       <enclosure
-        url="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/episodes/shtg-podcast-2026-04-28.mp3"
-        length="3302592"
+        url="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/episodes/shtg-podcast-2026-04-30.mp3"
+        length="7085280"
         type="audio/mpeg"/>
-      <itunes:title>SHTG Digest — Tuesday April 28, 2026</itunes:title>
+      <itunes:title>SHTG Digest — Thursday April 30, 2026</itunes:title>
       <itunes:duration>7:00</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
@@ -80,37 +75,38 @@
 
     
     <item>
-      <title>SHTG Digest — Thursday April 30, 2026</title>
-      <description><![CDATA[A thin but consequential week — the new 2026 ACC/AHA dyslipidemia guideline lands in *Circulation* and explicitly folds hypertriglyceridemia into the cholesterol-management framework, while *NEJM* publishes a correspondence cluster pressure-testing the pancreatitis-risk findings of the pivotal olezarsen (APOC3) trial.]]></description>
-      <pubDate>Thu, 30 Apr 2026 06:00:00 -0000</pubDate>
-      <guid isPermaLink="false">shtg-digest-2026-04-30</guid>
+      <title>SHTG Digest — Tuesday April 28, 2026</title>
+      <description><![CDATA[The long-awaited 2026 ACC/AHA Dyslipidemia Guideline drops today in *Circulation*, while concurrent evidence on plozasiran, ANGPTL3 inhibition, and ApoC-III blockade reinforces that RNA-based triglyceride therapies are reshaping the clinical landscape for SHTG and residual cardiovascular risk.]]></description>
+      <pubDate>Tue, 28 Apr 2026 06:00:00 -0000</pubDate>
+      <guid isPermaLink="false">shtg-digest-2026-04-28</guid>
       <enclosure
-        url="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/episodes/shtg-podcast-2026-04-30.mp3"
-        length="7085280"
+        url="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/episodes/shtg-podcast-2026-04-28.mp3"
+        length="3302592"
         type="audio/mpeg"/>
-      <itunes:title>SHTG Digest — Thursday April 30, 2026</itunes:title>
+      <itunes:title>SHTG Digest — Tuesday April 28, 2026</itunes:title>
       <itunes:duration>7:00</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
 
     
+    
+
     <item>
-      <title>SHTG Digest — Friday May 1, 2026</title>
-      <description><![CDATA[A thin original-research week, but two genuinely high-impact items: the new joint 2026 ACC/AHA dyslipidemia guideline (which now formally addresses hypertriglyceridemia and Lp(a) alongside LDL-C), and three published letters in NEJM debating the CORE-TIMI 72a/b olezarsen trial — including the Marston/Bergmark/Sabatine reply.]]></description>
-      <pubDate>Fri, 01 May 2026 06:00:00 -0000</pubDate>
-      <guid isPermaLink="false">shtg-digest-2026-05-01</guid>
+      <title>SHTG Digest — Friday April 24, 2026</title>
+      <description><![CDATA[
+        No top-tier journal hits this week. Second-tier highlights: plozasiran (APOC3 siRNA) cuts recurrent acute pancreatitis by 83% in FCS patients (PALISADE post-hoc); olezarsen meta-analysis confirms 48% TG reduction across 4 RCTs; ANGPTL3 inhibitor meta-analysis shows 73% remnant cholesterol reduction; two Nature Reviews Cardiology reviews on ANGPTL3 and ApoC-III implementation.
+      ]]></description>
+      <pubDate>Fri, 24 Apr 2026 06:00:00 +0000</pubDate>
+      <guid isPermaLink="false">shtg-digest-2026-04-24</guid>
       <enclosure
-        url="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/episodes/shtg-podcast-2026-05-01.mp3"
-        length="7450080"
+        url="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/episodes/MAREA_SHTG_DAILY-2026-04-24.mp3"
+        length="3563520"
         type="audio/mpeg"/>
-      <itunes:title>SHTG Digest — Friday May 1, 2026</itunes:title>
+      <itunes:title>SHTG Digest — Friday April 24, 2026</itunes:title>
       <itunes:duration>7:00</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
-
-    <!-- Add new <item> blocks above this line, newest first -->
-
-  </channel>
+    </channel>
 </rss>
