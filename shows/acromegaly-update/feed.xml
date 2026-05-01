@@ -26,7 +26,7 @@
       <link>https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/shows/acromegaly-update/</link>
     </image>
     <itunes:image href="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/shows/acromegaly-update/cover.jpg"/>
-
+    <!-- Add new <item> blocks below this line, newest first -->
     <item>
       <title>Acromegaly Update — Tuesday April 28, 2026</title>
       <description><![CDATA[This week's acromegaly literature is headlined by a landmark cardiovascular disease review in *Endocrine Reviews* and a cluster of high-yield JCEM papers covering biomarker-guided therapy, standardized pituitary imaging, patient-reported quality of life, and histological predictors of surgical remission.]]></description>
@@ -41,7 +41,5 @@
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
-
-    <!-- Add new <item> blocks above this line, newest first -->
-  </channel>
+    </channel>
 </rss>
