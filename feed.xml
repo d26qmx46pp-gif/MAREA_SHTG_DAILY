@@ -28,6 +28,20 @@
     <itunes:image href="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/cover.jpg"/>
     <!-- Add new <item> blocks below this line, newest first -->
     <item>
+      <title>SHTG Digest — Saturday May 2, 2026</title>
+      <description><![CDATA[A quiet week for new mechanistic and trial data, but two notable items: the 2026 ACC/AHA dyslipidemia guideline drops in Circulation (now formally folding hypertriglyceridemia into the same document as cholesterol), and three independent correspondence letters in NEJM probe the olezarsen pancreatitis-risk findings reported earlier this year by the TIMI group.]]></description>
+      <pubDate>Sat, 02 May 2026 06:00:00 -0000</pubDate>
+      <guid isPermaLink="false">shtg-digest-2026-05-02</guid>
+      <enclosure
+        url="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/episodes/shtg-podcast-2026-05-02.mp3"
+        length="6413280"
+        type="audio/mpeg"/>
+      <itunes:title>SHTG Digest — Saturday May 2, 2026</itunes:title>
+      <itunes:duration>7:00</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>SHTG Digest — Friday May 1, 2026</title>
       <description><![CDATA[A thin original-research week, but two genuinely high-impact items: the new joint 2026 ACC/AHA dyslipidemia guideline (which now formally addresses hypertriglyceridemia and Lp(a) alongside LDL-C), and three published letters in NEJM debating the CORE-TIMI 72a/b olezarsen trial — including the Marston/Bergmark/Sabatine reply.]]></description>
       <pubDate>Fri, 01 May 2026 06:00:00 -0000</pubDate>
