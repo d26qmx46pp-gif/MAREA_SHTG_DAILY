@@ -28,6 +28,20 @@
     <itunes:image href="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/shows/acromegaly-update/cover.jpg"/>
     <!-- Add new <item> blocks below this line, newest first -->
     <item>
+      <title>Acromegaly Update — Monday May 4, 2026</title>
+      <description><![CDATA[Two important consensus-level papers from late April 2026 sharpen the standards for acromegaly diagnosis and comorbidity management, incorporating AI-assisted screening, ultrasensitive GH assays, and updated international expert guidance.]]></description>
+      <pubDate>Mon, 04 May 2026 06:00:00 -0000</pubDate>
+      <guid isPermaLink="false">acromegaly-update-2026-05-04</guid>
+      <enclosure
+        url="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/shows/acromegaly-update/episodes/2026-05-04.mp3"
+        length="7572000"
+        type="audio/mpeg"/>
+      <itunes:title>Acromegaly Update — Monday May 4, 2026</itunes:title>
+      <itunes:duration>7:00</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Acromegaly Update — Tuesday April 28, 2026</title>
       <description><![CDATA[This week's acromegaly literature is headlined by a landmark cardiovascular disease review in *Endocrine Reviews* and a cluster of high-yield JCEM papers covering biomarker-guided therapy, standardized pituitary imaging, patient-reported quality of life, and histological predictors of surgical remission.]]></description>
       <pubDate>Tue, 28 Apr 2026 06:00:00 -0000</pubDate>
