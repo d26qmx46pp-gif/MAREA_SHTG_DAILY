@@ -28,6 +28,20 @@
     <itunes:image href="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/cover.jpg"/>
     <!-- Add new <item> blocks below this line, newest first -->
     <item>
+      <title>SHTG Digest — Monday May 4, 2026</title>
+      <description><![CDATA[This week's top-tier literature is anchored by the new 2026 ACC/AHA Dyslipidemia Guideline — the most comprehensive update to U.S. lipid management in eight years — alongside a cluster of NEJM correspondence debating the landmark olezarsen APOC3-targeting RCT and its implications for pancreatitis prevention in severe hypertriglyceridemia.]]></description>
+      <pubDate>Mon, 04 May 2026 06:00:00 -0000</pubDate>
+      <guid isPermaLink="false">shtg-digest-2026-05-04</guid>
+      <enclosure
+        url="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/episodes/shtg-podcast-2026-05-04.mp3"
+        length="2854217"
+        type="audio/mpeg"/>
+      <itunes:title>SHTG Digest — Monday May 4, 2026</itunes:title>
+      <itunes:duration>7:00</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>SHTG Digest — Sunday May 3, 2026</title>
       <description><![CDATA[A thin but consequential week — the new 2026 ACC/AHA multisociety dyslipidemia guideline lands in Circulation with hypertriglyceridemia and Lp(a) carved out as first-class targets, and three NEJM correspondence pieces continue the post-publication debate over olezarsen's pancreatitis benefit in severe hypertriglyceridemia.]]></description>
       <pubDate>Sun, 03 May 2026 06:00:00 -0000</pubDate>
