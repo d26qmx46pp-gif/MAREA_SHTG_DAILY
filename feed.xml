@@ -28,6 +28,20 @@
     <itunes:image href="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/cover.jpg"/>
     <!-- Add new <item> blocks below this line, newest first -->
     <item>
+      <title>SHTG Digest — Tuesday May 5, 2026</title>
+      <description><![CDATA[A landmark 2026 ACC/AHA dyslipidemia guideline, strong new RCT data for plozasiran in pancreatitis prevention, and a phase II win for chiglitazar in MASLD-plus-hypertriglyceridemia headline a busy week — with the NEJM fielding letters on olezarsen and Nat Rev Cardiol weighing in on the road ahead for apoC-III inhibitors.]]></description>
+      <pubDate>Tue, 05 May 2026 06:00:00 -0000</pubDate>
+      <guid isPermaLink="false">shtg-digest-2026-05-05</guid>
+      <enclosure
+        url="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/episodes/shtg-podcast-2026-05-05.mp3"
+        length="3773568"
+        type="audio/mpeg"/>
+      <itunes:title>SHTG Digest — Tuesday May 5, 2026</itunes:title>
+      <itunes:duration>7:00</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>SHTG Digest — Monday May 4, 2026</title>
       <description><![CDATA[This week's top-tier literature is anchored by the new 2026 ACC/AHA Dyslipidemia Guideline — the most comprehensive update to U.S. lipid management in eight years — alongside a cluster of NEJM correspondence debating the landmark olezarsen APOC3-targeting RCT and its implications for pancreatitis prevention in severe hypertriglyceridemia.]]></description>
       <pubDate>Mon, 04 May 2026 06:00:00 -0000</pubDate>
