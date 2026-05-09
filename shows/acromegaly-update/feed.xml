@@ -28,6 +28,20 @@
     <itunes:image href="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/shows/acromegaly-update/cover.jpg"/>
     <!-- Add new <item> blocks below this line, newest first -->
     <item>
+      <title>Acromegaly Update — Saturday May 9, 2026</title>
+      <description><![CDATA[A quiet week on the acromegaly research front (one letter-to-editor only) is more than offset by a loud week in the wider rare-disease industry — capped by Angelini's $4.1B takeout of Catalyst, an FDA reversal that revives Atara and Pierre Fabre's rare-blood-cancer drug Ebvallo, and a setback for Entrada's next-gen Duchenne therapy.]]></description>
+      <pubDate>Sat, 09 May 2026 06:00:00 -0000</pubDate>
+      <guid isPermaLink="false">acromegaly-update-2026-05-09</guid>
+      <enclosure
+        url="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/shows/acromegaly-update/episodes/2026-05-09.mp3"
+        length="3510336"
+        type="audio/mpeg"/>
+      <itunes:title>Acromegaly Update — Saturday May 9, 2026</itunes:title>
+      <itunes:duration>10:00</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Acromegaly Update — Thursday May 7, 2026</title>
       <description><![CDATA[This week's literature brings a long-term safety confirmation for pegvisomant monotherapy, a head-to-head comparison of first-generation somatostatin analogs using a validated composite score, and new evidence linking acromegaly to hepatic steatosis — alongside cost-effectiveness data for pasireotide and updated pituitary tumor pathology tools.]]></description>
       <pubDate>Thu, 07 May 2026 06:00:00 -0000</pubDate>
