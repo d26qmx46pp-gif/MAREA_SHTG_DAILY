@@ -28,6 +28,20 @@
     <itunes:image href="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/cover.jpg"/>
     <!-- Add new <item> blocks below this line, newest first -->
     <item>
+      <title>SHTG Digest — Saturday May 9, 2026</title>
+      <description><![CDATA[No top-tier journal acromegaly-style hits this cycle, but the broader lipid literature delivered two useful APOC3-inhibitor / olezarsen meta-analyses and a timely RNAi-for-lipid-disorders review; Part B was a quiet news week for Arrowhead, Alnylam, and Ionis specifically, with the Tryngolza severe-hypertriglyceridemia FDA decision (due by June 30) the dominant near-term catalyst.]]></description>
+      <pubDate>Sat, 09 May 2026 06:00:00 -0000</pubDate>
+      <guid isPermaLink="false">shtg-digest-2026-05-09</guid>
+      <enclosure
+        url="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/episodes/shtg-podcast-2026-05-09.mp3"
+        length="3358080"
+        type="audio/mpeg"/>
+      <itunes:title>SHTG Digest — Saturday May 9, 2026</itunes:title>
+      <itunes:duration>9:00</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>SHTG Digest — Friday May 8, 2026</title>
       <description><![CDATA[No top-tier journal hits surfaced this week — showing the next-best tier — but the haul is unusually substantive: the first randomized evidence that an APOC3 siRNA (plozasiran) prevents recurrent pancreatitis in very severe hypertriglyceridemia, a major Hegele review repositioning ANGPTL3 as a remnant-cholesterol target, and new human data linking ANGPTL3/4/8 complexes to heart failure outcomes.]]></description>
       <pubDate>Fri, 08 May 2026 06:00:00 -0000</pubDate>
