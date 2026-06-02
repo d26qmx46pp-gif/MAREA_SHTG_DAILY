@@ -26,8 +26,64 @@
       <link>https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/shows/acromegaly-update/</link>
     </image>
     <itunes:image href="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/shows/acromegaly-update/cover.jpg"/>
-    <!-- Add new
-<item>
+    <!-- Add new <item> blocks below this line, newest first -->
+    <item>
+      <title>Acromegaly Update — Monday June 1, 2026</title>
+      <description><![CDATA[New Pituitary research this week highlights the cardiac and bone risks that persist even in treated acromegaly patients, while the rare disease industry grapples with a mixed regulatory environment — one notable ASCO data release and continued fallout from FDA leadership turnover.]]></description>
+      <pubDate>Mon, 01 Jun 2026 06:00:00 -0000</pubDate>
+      <guid isPermaLink="false">acromegaly-update-2026-06-01</guid>
+      <enclosure
+        url="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/shows/acromegaly-update/episodes/2026-06-01.mp3"
+        length="3180672"
+        type="audio/mpeg"/>
+      <itunes:title>Acromegaly Update — Monday June 1, 2026</itunes:title>
+      <itunes:duration>7:00</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Acromegaly Update — Monday May 25, 2026</title>
+      <description><![CDATA[A network meta-analysis confirms that injectable somatostatin receptor ligands remain first-line in acromegaly, while new clinical data on paltusotine and pasireotide, plus rare disease industry news including BioMarin and Intellia, shape the week.]]></description>
+      <pubDate>Mon, 25 May 2026 06:00:00 -0000</pubDate>
+      <guid isPermaLink="false">acromegaly-update-2026-05-25</guid>
+      <enclosure
+        url="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/shows/acromegaly-update/episodes/2026-05-25.mp3"
+        length="11689440"
+        type="audio/mpeg"/>
+      <itunes:title>Acromegaly Update — Monday May 25, 2026</itunes:title>
+      <itunes:duration>7:00</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Acromegaly Update — Monday May 18, 2026</title>
+      <description><![CDATA[New proteomic biomarkers could sharpen acromegaly diagnosis beyond GH/IGF-1, while the rare disease industry sees a wave of FDA decisions and high-stakes M&A activity.]]></description>
+      <pubDate>Mon, 18 May 2026 06:00:00 -0000</pubDate>
+      <guid isPermaLink="false">acromegaly-update-2026-05-18</guid>
+      <enclosure
+        url="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/shows/acromegaly-update/episodes/2026-05-18.mp3"
+        length="12364800"
+        type="audio/mpeg"/>
+      <itunes:title>Acromegaly Update — Monday May 18, 2026</itunes:title>
+      <itunes:duration>7:00</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Acromegaly Update — Monday May 11, 2026</title>
+      <description><![CDATA[Acromegaly research this week centered on the long-term pharmacology of established therapies and clinical management updates, while the rare disease industry absorbed significant regulatory and pipeline news.]]></description>
+      <pubDate>Mon, 11 May 2026 06:00:00 -0000</pubDate>
+      <guid isPermaLink="false">acromegaly-update-2026-05-11</guid>
+      <enclosure
+        url="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/shows/acromegaly-update/episodes/2026-05-11.mp3"
+        length="11830080"
+        type="audio/mpeg"/>
+      <itunes:title>Acromegaly Update — Monday May 11, 2026</itunes:title>
+      <itunes:duration>7:00</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Acromegaly Update — Thursday May 7, 2026</title>
       <description><![CDATA[This week's literature brings a long-term safety confirmation for pegvisomant monotherapy, a head-to-head comparison of first-generation somatostatin analogs using a validated composite score, and new evidence linking acromegaly to hepatic steatosis — alongside cost-effectiveness data for pasireotide and updated pituitary tumor pathology tools.]]></description>
       <pubDate>Thu, 07 May 2026 06:00:00 -0000</pubDate>
@@ -57,7 +113,7 @@
     </item>
     <item>
       <title>Acromegaly Update — Tuesday April 28, 2026</title>
-      <description><![CDATA[This week's acromegaly literature is headlined by a landmark cardiovascular disease review in *Endocrine Reviews* and a cluster of high-yield JCEM papers covering biomarker-guided therapy, standardized pituitary imaging, patient-reported quality of life, and histological predictors of surgical remission.]]></description>
+      <description><![CDATA[This week's acromegaly literature is headlined by a landmark cardiovascular disease review in Endocrine Reviews and a cluster of high-yield JCEM papers covering biomarker-guided therapy, standardized pituitary imaging, patient-reported quality of life, and histological predictors of surgical remission.]]></description>
       <pubDate>Tue, 28 Apr 2026 06:00:00 -0000</pubDate>
       <guid isPermaLink="false">acromegaly-update-2026-04-28</guid>
       <enclosure
@@ -69,5 +125,5 @@
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
-    </channel>
+  </channel>
 </rss>
