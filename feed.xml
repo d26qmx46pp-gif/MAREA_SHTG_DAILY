@@ -28,6 +28,20 @@
     <itunes:image href="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/cover.jpg"/>
     <!-- Add new <item> blocks below this line, newest first -->
     <item>
+      <title>SHTG Digest — Friday June 12, 2026</title>
+      <description><![CDATA[A quiet cycle on both fronts — no new top-tier lipid papers cleared the bar (the one journal hit, a Lancet D&E retrospective, was already covered Tuesday), and no fresh trade-press stories landed in the 5-day window, leaving the competitive backdrop dominated by the countdown to the FDA's June 30 decision on olezarsen in severe hypertriglyceridemia.]]></description>
+      <pubDate>Fri, 12 Jun 2026 06:00:00 -0000</pubDate>
+      <guid isPermaLink="false">shtg-digest-2026-06-12</guid>
+      <enclosure
+        url="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/episodes/shtg-podcast-2026-06-12.mp3"
+        length="5621760"
+        type="audio/mpeg"/>
+      <itunes:title>SHTG Digest — Friday June 12, 2026</itunes:title>
+      <itunes:duration>7:00</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>SHTG Digest — Tuesday June 9, 2026</title>
       <description><![CDATA[A sweeping 25-year review of lipid medicine published today in *Lancet Diabetes & Endocrinology* maps the journey from statins to RNA/DNA-targeted therapies for APOC3 and ANGPTL3; on the industry side, it's a quiet news week, but the Ionis FDA clock for Tryngolza in severe hypertriglyceridemia is now ticking down to a June 30 decision.]]></description>
       <pubDate>Tue, 09 Jun 2026 06:00:00 -0000</pubDate>
