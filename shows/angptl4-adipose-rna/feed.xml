@@ -28,6 +28,20 @@
     <itunes:image href="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/shows/angptl4-adipose-rna/cover.jpg"/>
     <!-- Add new <item> blocks below this line, newest first -->
     <item>
+      <title>ANGPTL4 & Adipose RNA Update — Monday June 15, 2026</title>
+      <description><![CDATA[A thin week on the primary beat — two correspondence letters debate ANGPTL4 as a stroke biomarker, while two independent studies use siRNA knockdown in human and porcine adipose-derived stem cells to probe fat biology, reinforcing the utility of RNA tools in adipose tissue.]]></description>
+      <pubDate>Mon, 15 Jun 2026 06:00:00 -0000</pubDate>
+      <guid isPermaLink="false">angptl4-adipose-rna-2026-06-15</guid>
+      <enclosure
+        url="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/shows/angptl4-adipose-rna/episodes/2026-06-15.mp3"
+        length="6982080"
+        type="audio/mpeg"/>
+      <itunes:title>ANGPTL4 & Adipose RNA Update — Monday June 15, 2026</itunes:title>
+      <itunes:duration>7:00</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>ANGPTL4 & Adipose RNA Update — Monday June 8, 2026</title>
       <description><![CDATA[ANGPTL4 emerges prominently as a therapeutic target in a landmark Circulation Research review of triglyceride-rich lipoprotein metabolism and cardiovascular risk in diabetes, while new work in adipocyte biology highlights PPARγ-mediated transcriptional programs and antiadipogenic peptide mechanisms with direct ANGPTL4 relevance.]]></description>
       <pubDate>Mon, 08 Jun 2026 06:00:00 -0000</pubDate>
