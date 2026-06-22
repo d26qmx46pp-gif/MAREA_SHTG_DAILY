@@ -28,6 +28,20 @@
     <itunes:image href="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/shows/acromegaly-update/cover.jpg"/>
     <!-- Add new <item> blocks below this line, newest first -->
     <item>
+      <title>Acromegaly Update — Monday June 22, 2026</title>
+      <description><![CDATA[A rich week in acromegaly research — new data on renal complications, a precision medicine framework, a high-risk co-secreting tumor phenotype, and cancer risk analyses — while the rare disease industry continues to see a wave of FDA regulatory reversals benefiting gene therapy developers.]]></description>
+      <pubDate>Mon, 22 Jun 2026 06:00:00 -0000</pubDate>
+      <guid isPermaLink="false">acromegaly-update-2026-06-22</guid>
+      <enclosure
+        url="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/shows/acromegaly-update/episodes/2026-06-22.mp3"
+        length="12098880"
+        type="audio/mpeg"/>
+      <itunes:title>Acromegaly Update — Monday June 22, 2026</itunes:title>
+      <itunes:duration>12:00</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Acromegaly Update — Monday June 15, 2026</title>
       <description><![CDATA[Surgical technique innovation and a JCEM editorial from two giants of the field reshape how we think about curing GH-secreting tumors and managing cancer risk in acromegaly, while the rare disease sector sees a burst of late-stage deal-making and platform financing that signals strong investor conviction in gene-silencing technologies.]]></description>
       <pubDate>Mon, 15 Jun 2026 06:00:00 -0000</pubDate>
