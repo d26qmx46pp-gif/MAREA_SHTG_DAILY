@@ -28,6 +28,20 @@
     <itunes:image href="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/cover.jpg"/>
     <!-- Add new <item> blocks below this line, newest first -->
     <item>
+      <title>SHTG Digest — Tuesday June 23, 2026</title>
+      <description><![CDATA[A fresh meta-analysis of 14 APOC3-inhibitor trials confirms 80% reduction in acute pancreatitis risk alongside a compelling indirect head-to-head of olezarsen versus volanesorsen in FCS, while the most important industry event this cycle is the looming June 30 FDA decision on Tryngolza for severe hypertriglyceridemia.]]></description>
+      <pubDate>Tue, 23 Jun 2026 06:00:00 -0000</pubDate>
+      <guid isPermaLink="false">shtg-digest-2026-06-23</guid>
+      <enclosure
+        url="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/episodes/shtg-podcast-2026-06-23.mp3"
+        length="10545120"
+        type="audio/mpeg"/>
+      <itunes:title>SHTG Digest — Tuesday June 23, 2026</itunes:title>
+      <itunes:duration>7:00</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>SHTG Digest — Friday June 19, 2026</title>
       <description><![CDATA[A quiet breaking-news cycle on paper, but the lipid field is coiled for impact — a landmark Ionis FDA decision on olezarsen for severe hypertriglyceridemia is 11 days out, and fresh science clarifies who among heterozygous FCS-gene carriers will need APOC3-targeted therapy; on the bench, a novel SPP2–LPL axis offers a new handle on triglyceride homeostasis.]]></description>
       <pubDate>Fri, 19 Jun 2026 06:00:00 -0000</pubDate>
