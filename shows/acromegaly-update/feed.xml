@@ -28,6 +28,20 @@
     <itunes:image href="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/shows/acromegaly-update/cover.jpg"/>
     <!-- Add new <item> blocks below this line, newest first -->
     <item>
+      <title>Acromegaly Update — Monday June 29, 2026</title>
+      <description><![CDATA[Paltusotine's four-year open-label data confirm durable oral control of acromegaly in patients switched from injections, while the rare disease industry absorbs a landmark Sangamo bankruptcy, a well-funded gene-editing entrant in AATD, and a new build-to-buy cardiomyopathy venture from Merck KGaA.]]></description>
+      <pubDate>Mon, 29 Jun 2026 06:00:00 -0000</pubDate>
+      <guid isPermaLink="false">acromegaly-update-2026-06-29</guid>
+      <enclosure
+        url="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/shows/acromegaly-update/episodes/2026-06-29.mp3"
+        length="9851520"
+        type="audio/mpeg"/>
+      <itunes:title>Acromegaly Update — Monday June 29, 2026</itunes:title>
+      <itunes:duration>7:00</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Acromegaly Update — Monday June 22, 2026</title>
       <description><![CDATA[A rich week in acromegaly research — new data on renal complications, a precision medicine framework, a high-risk co-secreting tumor phenotype, and cancer risk analyses — while the rare disease industry continues to see a wave of FDA regulatory reversals benefiting gene therapy developers.]]></description>
       <pubDate>Mon, 22 Jun 2026 06:00:00 -0000</pubDate>
