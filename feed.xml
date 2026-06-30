@@ -28,6 +28,20 @@
     <itunes:image href="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/cover.jpg"/>
     <!-- Add new <item> blocks below this line, newest first -->
     <item>
+      <title>SHTG Digest — Tuesday June 30, 2026</title>
+      <description><![CDATA[A quiet science week surfaces a novel APOC3 role in diabetic retinal angiogenesis and a diagnostic yield study for monogenic HTG, while the industry story remains Ionis' Tryngolza commercial launch into the 3.6-million-patient sHTG market following last week's FDA approval.]]></description>
+      <pubDate>Tue, 30 Jun 2026 06:00:00 -0000</pubDate>
+      <guid isPermaLink="false">shtg-digest-2026-06-30</guid>
+      <enclosure
+        url="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/episodes/shtg-podcast-2026-06-30.mp3"
+        length="5594304"
+        type="audio/mpeg"/>
+      <itunes:title>SHTG Digest — Tuesday June 30, 2026</itunes:title>
+      <itunes:duration>7:00</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>SHTG Digest — Friday June 26, 2026</title>
       <description><![CDATA[The week's dominant story is the FDA's June 24 approval of Ionis' Tryngolza (olezarsen) as the first-ever treatment for severe hypertriglyceridemia with a pancreatitis risk reduction claim; on the science side, three next-best-tier papers examine plozasiran's pharmacology, ApoC3's biphasic role across the MASLD spectrum, and urinary ANGPTL3 as a novel biomarker for podocyte injury.]]></description>
       <pubDate>Fri, 26 Jun 2026 06:00:00 -0000</pubDate>
