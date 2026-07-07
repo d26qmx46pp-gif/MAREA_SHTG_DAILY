@@ -28,6 +28,20 @@
     <itunes:image href="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/cover.jpg"/>
     <!-- Add new <item> blocks below this line, newest first -->
     <item>
+      <title>SHTG Digest — Tuesday July 7, 2026</title>
+      <description><![CDATA[A thin cycle on both sides — the only new top-tier hit is a review on residual lipid risk beyond LDL (ANGPTL/apoC-III/FGF21 pathways get a mention), and there's no fresh industry news in the last 5 days beyond last week's Tryngolza sHTG approval, which was already covered.]]></description>
+      <pubDate>Tue, 07 Jul 2026 06:00:00 -0000</pubDate>
+      <guid isPermaLink="false">shtg-digest-2026-07-07</guid>
+      <enclosure
+        url="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/episodes/shtg-podcast-2026-07-07.mp3"
+        length="7343040"
+        type="audio/mpeg"/>
+      <itunes:title>SHTG Digest — Tuesday July 7, 2026</itunes:title>
+      <itunes:duration>6:07</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>SHTG Digest — Friday July 3, 2026</title>
       <description><![CDATA[A quiet cycle overall — no top-tier journal papers on our core targets cleared the bar and no genuinely new industry news broke in the last five days, so this episode leans on two next-best-tier papers (an ANGPTL3-inhibitor phase 3 extension and a pediatric SHTG risk-prediction study) while the Arrowhead/Ionis/Alnylam news front stayed silent beyond what's already been covered.]]></description>
       <pubDate>Fri, 03 Jul 2026 06:00:00 -0000</pubDate>
