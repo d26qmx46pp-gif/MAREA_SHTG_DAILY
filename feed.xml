@@ -28,6 +28,20 @@
     <itunes:image href="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/cover.jpg"/>
     <!-- Add new <item> blocks below this line, newest first -->
     <item>
+      <title>SHTG Digest — Friday July 10, 2026</title>
+      <description><![CDATA[No top-tier journal papers cleared the bar this cycle so Part A drops down a tier to three directly relevant clinical items on hypertriglyceridemia and LPL biology, while Part B is dominated by a single but consequential Ionis story — the surprise Phase 3 failure of Wainua in ATTR-CM, which isn't a lipid-program readout but is reshaping the competitive and investor picture for Ionis and Alnylam.]]></description>
+      <pubDate>Fri, 10 Jul 2026 06:00:00 -0000</pubDate>
+      <guid isPermaLink="false">shtg-digest-2026-07-10</guid>
+      <enclosure
+        url="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/episodes/shtg-podcast-2026-07-10.mp3"
+        length="8432160"
+        type="audio/mpeg"/>
+      <itunes:title>SHTG Digest — Friday July 10, 2026</itunes:title>
+      <itunes:duration>7:00</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>SHTG Digest — Tuesday July 7, 2026</title>
       <description><![CDATA[A thin cycle on both sides — the only new top-tier hit is a review on residual lipid risk beyond LDL (ANGPTL/apoC-III/FGF21 pathways get a mention), and there's no fresh industry news in the last 5 days beyond last week's Tryngolza sHTG approval, which was already covered.]]></description>
       <pubDate>Tue, 07 Jul 2026 06:00:00 -0000</pubDate>
