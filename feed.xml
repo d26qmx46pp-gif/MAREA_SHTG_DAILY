@@ -28,6 +28,20 @@
     <itunes:image href="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/cover.jpg"/>
     <!-- Add new <item> blocks below this line, newest first -->
     <item>
+      <title>SHTG Digest — Friday July 17, 2026</title>
+      <description><![CDATA[It's a quiet cycle on both fronts — the only new PubMed entry is a review/perspective piece touching ANGPTL3 and apoC-III rather than primary data, and the industry side has nothing genuinely new since Tuesday's episode (Tryngolza's sHTG approval and related coverage were already covered in prior digests).]]></description>
+      <pubDate>Fri, 17 Jul 2026 06:00:00 -0000</pubDate>
+      <guid isPermaLink="false">shtg-digest-2026-07-17</guid>
+      <enclosure
+        url="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/episodes/shtg-podcast-2026-07-17.mp3"
+        length="3452094"
+        type="audio/mpeg"/>
+      <itunes:title>SHTG Digest — Friday July 17, 2026</itunes:title>
+      <itunes:duration>2:53</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>SHTG Digest — Tuesday July 14, 2026</title>
       <description><![CDATA[A quiet cycle on both fronts — Part A offers three next-tier papers on FCS-gene carrier states and the ANGPTL axis rather than any top-journal blockbuster, while Part B has no genuinely new news: the period's two biggest Ionis stories (the Tryngolza sHTG label expansion and the Wainua ATTR-CM trial failure) were both already covered in the July 10 episode and have no material updates since.]]></description>
       <pubDate>Tue, 14 Jul 2026 06:00:00 -0000</pubDate>
