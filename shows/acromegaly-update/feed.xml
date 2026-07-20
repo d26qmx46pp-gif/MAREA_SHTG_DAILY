@@ -28,6 +28,20 @@
     <itunes:image href="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/shows/acromegaly-update/cover.jpg"/>
     <!-- Add new <item> blocks below this line, newest first -->
     <item>
+      <title>Acromegaly Update — Monday July 20, 2026</title>
+      <description><![CDATA[A quiet week for acromegaly research was anchored by a strong AI-diagnosis paper in JCEM, while rare disease headlines swung between a startup's ultrasound gene-therapy bombshell and a somber earnings-style readout on a rare endocrine disorder.]]></description>
+      <pubDate>Mon, 20 Jul 2026 06:00:00 -0000</pubDate>
+      <guid isPermaLink="false">acromegaly-update-2026-07-20</guid>
+      <enclosure
+        url="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/shows/acromegaly-update/episodes/2026-07-20.mp3"
+        length="6681088"
+        type="audio/mpeg"/>
+      <itunes:title>Acromegaly Update — Monday July 20, 2026</itunes:title>
+      <itunes:duration>7:00</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Acromegaly Update — Monday July 13, 2026</title>
       <description><![CDATA[It was a quiet week for new acromegaly research, but the rare disease industry delivered its biggest story of the year — Vertex's $10 billion acquisition of Crinetics Pharmaceuticals, maker of the acromegaly drug Palsonify, directly linking this week's two segments.]]></description>
       <pubDate>Mon, 13 Jul 2026 06:00:00 -0000</pubDate>
