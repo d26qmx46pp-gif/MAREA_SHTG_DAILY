@@ -28,6 +28,20 @@
     <itunes:image href="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/cover.jpg"/>
     <!-- Add new <item> blocks below this line, newest first -->
     <item>
+      <title>SHTG Digest — Friday July 24, 2026</title>
+      <description><![CDATA[A quiet cycle for new peer-reviewed lipid literature was overshadowed by Arrowhead Pharmaceuticals' Phase 3 plozasiran data in severe hypertriglyceridemia, which analysts are calling a "best-case scenario" that puts the drug on a collision course with Ionis's Tryngolza.]]></description>
+      <pubDate>Fri, 24 Jul 2026 06:00:00 -0000</pubDate>
+      <guid isPermaLink="false">shtg-digest-2026-07-24</guid>
+      <enclosure
+        url="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/episodes/shtg-podcast-2026-07-24.mp3"
+        length="1445739"
+        type="audio/mpeg"/>
+      <itunes:title>SHTG Digest — Friday July 24, 2026</itunes:title>
+      <itunes:duration>6:01</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>SHTG Digest — Tuesday July 21, 2026</title>
       <description><![CDATA[A quiet five days on both fronts — one dupe and one recycled news brief in the literature, and no fresh industry developments beyond the Tryngolza sHTG label expansion already covered last cycle.]]></description>
       <pubDate>Tue, 21 Jul 2026 06:00:00 -0000</pubDate>
