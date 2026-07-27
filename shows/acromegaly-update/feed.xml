@@ -28,6 +28,20 @@
     <itunes:image href="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/shows/acromegaly-update/cover.jpg"/>
     <!-- Add new <item> blocks below this line, newest first -->
     <item>
+      <title>Acromegaly Update — Monday July 27, 2026</title>
+      <description><![CDATA[A trio of new Pituitary papers built out the real-world case for oral paltusotine in controlled acromegaly, while on the industry side a small rare-disease repurposing startup inked a licensing deal and orphan drugmakers pushed back on Medicare price-pilot exposure.]]></description>
+      <pubDate>Mon, 27 Jul 2026 06:00:00 -0000</pubDate>
+      <guid isPermaLink="false">acromegaly-update-2026-07-27</guid>
+      <enclosure
+        url="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/shows/acromegaly-update/episodes/2026-07-27.mp3"
+        length="8495520"
+        type="audio/mpeg"/>
+      <itunes:title>Acromegaly Update — Monday July 27, 2026</itunes:title>
+      <itunes:duration>7:00</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Acromegaly Update — Monday July 20, 2026</title>
       <description><![CDATA[A quiet week for acromegaly research was anchored by a strong AI-diagnosis paper in JCEM, while rare disease headlines swung between a startup's ultrasound gene-therapy bombshell and a somber earnings-style readout on a rare endocrine disorder.]]></description>
       <pubDate>Mon, 20 Jul 2026 06:00:00 -0000</pubDate>
