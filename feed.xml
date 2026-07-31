@@ -28,6 +28,20 @@
     <itunes:image href="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/cover.jpg"/>
     <!-- Add new <item> blocks below this line, newest first -->
     <item>
+      <title>SHTG Digest — Friday July 31, 2026</title>
+      <description><![CDATA[It was a quiet week for new top-tier SHTG/ANGPTL/APOC3/LPL science, but Alnylam's 30% stock plunge on a surprise Amvuttra guidance cut is a reminder of how quickly sentiment can turn on RNAi-platform companies even as their lipid-focused programs (and rivals Ionis and Arrowhead) keep advancing on separate tracks.]]></description>
+      <pubDate>Fri, 31 Jul 2026 06:00:00 -0000</pubDate>
+      <guid isPermaLink="false">shtg-digest-2026-07-31</guid>
+      <enclosure
+        url="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/episodes/shtg-podcast-2026-07-31.mp3"
+        length="5611008"
+        type="audio/mpeg"/>
+      <itunes:title>SHTG Digest — Friday July 31, 2026</itunes:title>
+      <itunes:duration>7:00</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>SHTG Digest — Tuesday July 28, 2026</title>
       <description><![CDATA[It's a quiet cycle on both fronts — no new top-tier lipid papers cleared the bar, and the only notable industry item is a STAT News recap of the Arrowhead–Ionis triglyceride-drug rivalry that surfaces a previously undisclosed detail: Ionis's patent-infringement allegation against Arrowhead over the RNAi technology behind Redemplo (plozasiran).]]></description>
       <pubDate>Tue, 28 Jul 2026 06:00:00 -0000</pubDate>
