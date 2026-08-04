@@ -28,6 +28,20 @@
     <itunes:image href="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/cover.jpg"/>
     <!-- Add new <item> blocks below this line, newest first -->
     <item>
+      <title>SHTG Digest — Tuesday August 4, 2026</title>
+      <description><![CDATA[A genuinely quiet cycle — the only new lipid-biology paper worth flagging is a human physiology study nailing down how ANGPTL3 deficiency reshapes triglyceride-rich lipoprotein clearance, while the industry side produced no fresh, previously-uncovered news on Arrowhead, Alnylam, or Ionis in the last five days.]]></description>
+      <pubDate>Tue, 04 Aug 2026 06:00:00 -0000</pubDate>
+      <guid isPermaLink="false">shtg-digest-2026-08-04</guid>
+      <enclosure
+        url="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/episodes/shtg-podcast-2026-08-04.mp3"
+        length="4279296"
+        type="audio/mpeg"/>
+      <itunes:title>SHTG Digest — Tuesday August 4, 2026</itunes:title>
+      <itunes:duration>7:00</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>SHTG Digest — Friday July 31, 2026</title>
       <description><![CDATA[It was a quiet week for new top-tier SHTG/ANGPTL/APOC3/LPL science, but Alnylam's 30% stock plunge on a surprise Amvuttra guidance cut is a reminder of how quickly sentiment can turn on RNAi-platform companies even as their lipid-focused programs (and rivals Ionis and Arrowhead) keep advancing on separate tracks.]]></description>
       <pubDate>Fri, 31 Jul 2026 06:00:00 -0000</pubDate>
