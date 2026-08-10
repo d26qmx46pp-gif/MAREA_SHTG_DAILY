@@ -28,6 +28,20 @@
     <itunes:image href="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/shows/acromegaly-update/cover.jpg"/>
     <!-- Add new <item> blocks below this line, newest first -->
     <item>
+      <title>Acromegaly Update — Monday August 10, 2026</title>
+      <description><![CDATA[It's a quiet week for acromegaly-specific trial data — the research side leans mechanistic and clinical-management, headlined by a novel long-acting GH receptor antagonist — while rare disease industry news brought a fresh Phase 2 win for Silence Therapeutics, an $800M Stargardt disease acquisition, a CRISPR safety insight from Intellia, and a Washington fight over whether orphan drugs get carved out of Medicare price pilots.]]></description>
+      <pubDate>Mon, 10 Aug 2026 06:00:00 -0000</pubDate>
+      <guid isPermaLink="false">acromegaly-update-2026-08-10</guid>
+      <enclosure
+        url="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/shows/acromegaly-update/episodes/2026-08-10.mp3"
+        length="7205376"
+        type="audio/mpeg"/>
+      <itunes:title>Acromegaly Update — Monday August 10, 2026</itunes:title>
+      <itunes:duration>7:00</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Acromegaly Update — Monday August 3, 2026</title>
       <description><![CDATA[It's a quiet week for acromegaly-specific research — no trials, just incremental papers on AI-assisted detection, surgical outcomes, and pediatric gigantism — while the broader rare disease industry saw a gene-editing "gold rush" for a liver/lung disorder, a financing bet against two bigger rivals in Angelman syndrome, and a pulmonary hypertension partnership fall apart after a near-miss trial.]]></description>
       <pubDate>Mon, 03 Aug 2026 06:00:00 -0000</pubDate>
