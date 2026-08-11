@@ -28,6 +28,20 @@
     <itunes:image href="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/cover.jpg"/>
     <!-- Add new <item> blocks below this line, newest first -->
     <item>
+      <title>SHTG Digest — Tuesday August 11, 2026</title>
+      <description><![CDATA[No new top-tier journal papers this cycle — the science side is quiet reviews and case reports on the APOC3/LPL axis — while on the industry side Arrowhead bought itself a priority review voucher to speed its plozasiran (Redemplo) filing in severe hypertriglyceridemia, sharpening its race against Ionis's newly-expanded Tryngolza.]]></description>
+      <pubDate>Tue, 11 Aug 2026 06:00:00 -0000</pubDate>
+      <guid isPermaLink="false">shtg-digest-2026-08-11</guid>
+      <enclosure
+        url="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/episodes/shtg-podcast-2026-08-11.mp3"
+        length="6142080"
+        type="audio/mpeg"/>
+      <itunes:title>SHTG Digest — Tuesday August 11, 2026</itunes:title>
+      <itunes:duration>7:00</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>SHTG Digest — Friday August 7, 2026</title>
       <description><![CDATA[A quiet cycle on both fronts — one non-top-tier observational paper on pancreatitis recurrence in hypertriglyceridemia, and no fresh industry news beyond what's already been covered (Arrowhead's SHASTA-3/4 phase 3 data and the Ionis/Alnylam earnings stories all fell in prior episodes' windows).]]></description>
       <pubDate>Fri, 07 Aug 2026 06:00:00 -0000</pubDate>
