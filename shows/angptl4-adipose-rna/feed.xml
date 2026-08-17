@@ -28,6 +28,20 @@
     <itunes:image href="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/shows/angptl4-adipose-rna/cover.jpg"/>
     <!-- Add new <item> blocks below this line, newest first -->
     <item>
+      <title>ANGPTL4 & Adipose RNA Update — Monday August 17, 2026</title>
+      <description><![CDATA[The week's strongest signal is a Molecular Therapy paper using antibody-targeted lipid-coated nanoparticles to deliver siRNA into a specific pathogenic adipose stromal cell population — a concrete adipose-RNA-delivery advance — alongside a cluster of new mechanistic data tying ANGPTL4 to cancer metastasis, immune evasion, and renal fibrosis, plus a registered systematic-review protocol on ANGPTL3/ANGPTL4/APOC3 inhibitors for hypertriglyceridemia-driven pancreatitis.]]></description>
+      <pubDate>Mon, 17 Aug 2026 06:00:00 -0000</pubDate>
+      <guid isPermaLink="false">angptl4-adipose-rna-2026-08-17</guid>
+      <enclosure
+        url="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/shows/angptl4-adipose-rna/episodes/2026-08-17.mp3"
+        length="6102912"
+        type="audio/mpeg"/>
+      <itunes:title>ANGPTL4 & Adipose RNA Update — Monday August 17, 2026</itunes:title>
+      <itunes:duration>7:00</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>ANGPTL4 & Adipose RNA Update — Monday August 10, 2026</title>
       <description><![CDATA[A thin week for ANGPTL4-specific literature — every ANGPTL4 hit in the 8-day PubMed window duplicated prior coverage — but three adjacent papers are worth a look: two on adipocyte differentiation mechanisms and one on an siRNA nanovesicle delivery platform.]]></description>
       <pubDate>Mon, 10 Aug 2026 06:00:00 -0000</pubDate>
