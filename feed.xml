@@ -28,6 +28,20 @@
     <itunes:image href="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/cover.jpg"/>
     <!-- Add new <item> blocks below this line, newest first -->
     <item>
+      <title>SHTG Digest — Tuesday August 25, 2026</title>
+      <description><![CDATA[No top-tier-journal SHTG papers landed this cycle, but a broadened PubMed pull surfaced two drug-focused reviews on plozasiran and olezarsen plus a Korean GWAS turning up a novel ANGPTL3 variant, while the industry side stayed quiet with nothing new in the 5-day window from Ionis, Arrowhead, or Alnylam.]]></description>
+      <pubDate>Tue, 25 Aug 2026 06:00:00 -0000</pubDate>
+      <guid isPermaLink="false">shtg-digest-2026-08-25</guid>
+      <enclosure
+        url="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/episodes/shtg-podcast-2026-08-25.mp3"
+        length="5972352"
+        type="audio/mpeg"/>
+      <itunes:title>SHTG Digest — Tuesday August 25, 2026</itunes:title>
+      <itunes:duration>7:00</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>SHTG Digest — Friday August 21, 2026</title>
       <description><![CDATA[No top-tier journal papers on SHTG/ANGPTL/APOC3/LPL cleared the bar this cycle (next-best-tier picks below on ANGPTL3 inhibition and APOC3-targeted siRNA are still worth a read), and it's a quiet week for Arrowhead/Alnylam/Ionis press coverage ahead of the SHASTA-3/4 late-breaker at ESC on August 30.]]></description>
       <pubDate>Fri, 21 Aug 2026 06:00:00 -0000</pubDate>
