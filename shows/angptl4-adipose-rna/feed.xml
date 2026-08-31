@@ -28,6 +28,20 @@
     <itunes:image href="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/shows/angptl4-adipose-rna/cover.jpg"/>
     <!-- Add new <item> blocks below this line, newest first -->
     <item>
+      <title>ANGPTL4 & Adipose RNA Update — Monday August 31, 2026</title>
+      <description><![CDATA[A thin week for new ANGPTL4-specific literature, but one strong hit on the RNA-delivery-to-metabolic-tissue side: a circular RNA/LNP formulation delivering GDF15 shows sustained weight loss and adipose thermogenic activation in obese mice.]]></description>
+      <pubDate>Mon, 31 Aug 2026 06:00:00 -0000</pubDate>
+      <guid isPermaLink="false">angptl4-adipose-rna-2026-08-31</guid>
+      <enclosure
+        url="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/shows/angptl4-adipose-rna/episodes/2026-08-31.mp3"
+        length="4703232"
+        type="audio/mpeg"/>
+      <itunes:title>ANGPTL4 & Adipose RNA Update — Monday August 31, 2026</itunes:title>
+      <itunes:duration>7:00</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>ANGPTL4 & Adipose RNA Update — Monday August 24, 2026</title>
       <description><![CDATA[A quiet week — the PubMed search returned 12 hits in the last 8 days, but 10 of the 12 had already been covered in prior episodes and the remaining 2 are off-topic, so there is no new ANGPTL4 or adipose-RNA-delivery research to report this cycle.]]></description>
       <pubDate>Mon, 24 Aug 2026 06:00:00 -0000</pubDate>
