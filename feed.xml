@@ -28,6 +28,20 @@
     <itunes:image href="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/cover.jpg"/>
     <!-- Add new <item> blocks below this line, newest first -->
     <item>
+      <title>SHTG Digest — Monday August 31, 2026</title>
+      <description><![CDATA[ESC Congress in Munich delivered the payoff this cycle predicted last time — CRISPR Therapeutics published one-year durability data for its ANGPTL3 base-editing candidate CTX310 in NEJM, while Arrowhead used the same meeting to lay out a case that plozasiran (Redemplo) is at least as good as, and possibly safer than, Ionis's Tryngolza in severe hypertriglyceridemia.]]></description>
+      <pubDate>Mon, 31 Aug 2026 06:00:00 -0000</pubDate>
+      <guid isPermaLink="false">shtg-digest-2026-08-31</guid>
+      <enclosure
+        url="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/episodes/shtg-podcast-2026-08-31.mp3"
+        length="4993536"
+        type="audio/mpeg"/>
+      <itunes:title>SHTG Digest — Monday August 31, 2026</itunes:title>
+      <itunes:duration>7:00</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>SHTG Digest — Friday August 28, 2026</title>
       <description><![CDATA[No new top-tier lipid papers broke this cycle, but a strong human ANGPTL3-deficiency kinetics study and a novel TREM2–APOC3 mechanism paper stood out on the science side, while the industry side was quiet on new sHTG-specific news in the last five days — the main thing to watch is ESC Congress in Munich, though this year it's Alnylam's amyloid-cardiomyopathy franchise, not its lipid pipeline, in the spotlight.]]></description>
       <pubDate>Fri, 28 Aug 2026 06:00:00 -0000</pubDate>
