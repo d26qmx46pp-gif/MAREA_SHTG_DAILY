@@ -28,6 +28,20 @@
     <itunes:image href="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/cover.jpg"/>
     <!-- Add new <item> blocks below this line, newest first -->
     <item>
+      <title>SHTG Digest — Friday September 4, 2026</title>
+      <description><![CDATA[A quiet cycle on both fronts — no top-tier lipid papers cleared the bar in PubMed this week, and no genuinely new SHTG/Arrowhead/Alnylam/Ionis industry stories broke in the last 5 days beyond what's already been covered (Tryngolza's sHTG approval and Arrowhead's ESC '26 plozasiran data remain the dominant recent storylines).]]></description>
+      <pubDate>Fri, 04 Sep 2026 06:00:00 -0000</pubDate>
+      <guid isPermaLink="false">shtg-digest-2026-09-04</guid>
+      <enclosure
+        url="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/episodes/shtg-podcast-2026-09-04.mp3"
+        length="4437888"
+        type="audio/mpeg"/>
+      <itunes:title>SHTG Digest — Friday September 4, 2026</itunes:title>
+      <itunes:duration>7:00</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>SHTG Digest — Tuesday September 1, 2026</title>
       <description><![CDATA[This is a quiet, largely repeat cycle — the CTX310 (ANGPTL3 base-editing) durability letter and the Arrowhead-vs-Ionis ESC Congress safety showdown that drove the last digest remain the dominant SHTG stories, with nothing genuinely new clearing the bar on either the science or industry side since two days ago.]]></description>
       <pubDate>Tue, 01 Sep 2026 06:00:00 -0000</pubDate>
