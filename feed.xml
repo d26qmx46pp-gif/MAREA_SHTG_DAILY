@@ -28,6 +28,20 @@
     <itunes:image href="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/cover.jpg"/>
     <!-- Add new <item> blocks below this line, newest first -->
     <item>
+      <title>SHTG Digest — Tuesday September 15, 2026</title>
+      <description><![CDATA[A quiet cycle on both fronts — PubMed's top-tier journals produced zero SHTG/ANGPTL/APOC3/LPL hits this week (next-best-tier picks below cover ANGPTL3 inhibition, lipodystrophy genetics, and LPL biochemistry), and none of the tracked trade outlets published fresh news on SHTG, Arrowhead, Alnylam, or Ionis in the last five days.]]></description>
+      <pubDate>Tue, 15 Sep 2026 06:00:00 -0000</pubDate>
+      <guid isPermaLink="false">shtg-digest-2026-09-15</guid>
+      <enclosure
+        url="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/episodes/shtg-podcast-2026-09-15.mp3"
+        length="4937088"
+        type="audio/mpeg"/>
+      <itunes:title>SHTG Digest — Tuesday September 15, 2026</itunes:title>
+      <itunes:duration>7:00</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>SHTG Digest — Friday September 11, 2026</title>
       <description><![CDATA[No top-tier journal papers cleared the bar this cycle, but next-tier literature offered genetics-to-therapy signal on FCS (a novel APOA5 variant and an ApoC-II case series) alongside two olezarsen/zodasiran commentary pieces, while the industry side was quiet — everything found in the 5-day window on Arrowhead, Alnylam, or Ionis's lipid programs had already been covered in the prior cycle.]]></description>
       <pubDate>Fri, 11 Sep 2026 06:00:00 -0000</pubDate>
