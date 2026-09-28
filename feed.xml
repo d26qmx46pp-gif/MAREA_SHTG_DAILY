@@ -28,6 +28,20 @@
     <itunes:image href="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/cover.jpg"/>
     <!-- Add new <item> blocks below this line, newest first -->
     <item>
+      <title>SHTG Digest — Monday September 28, 2026</title>
+      <description><![CDATA[Another thin cycle: no top-tier lipid papers, but the next tier brought a high-specificity Cas12a editing study that knocked out Angptl3 in mice and a 526-patient study showing that how fast triglycerides fall after admission predicts severity in hypertriglyceridemic pancreatitis; on the industry side there was no new SHTG news, and the only fresh item was a second Ionis-partnered Phase 3 win of the week, Otsuka's ulefnersen in FUS-ALS.]]></description>
+      <pubDate>Mon, 28 Sep 2026 06:00:00 -0000</pubDate>
+      <guid isPermaLink="false">shtg-digest-2026-09-28</guid>
+      <enclosure
+        url="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/episodes/shtg-podcast-2026-09-28.mp3"
+        length="5850240"
+        type="audio/mpeg"/>
+      <itunes:title>SHTG Digest — Monday September 28, 2026</itunes:title>
+      <itunes:duration>7:00</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>SHTG Digest — Friday September 25, 2026</title>
       <description><![CDATA[A thin cycle on both fronts — the lipid literature offered only next-tier work (an ANGPTL3 base-editing delivery study, an APOC3 variant association in Indian MASLD, and two clinical-care papers on hypertriglyceridemia), and the industry side produced no new SHTG news, with the only fresh item being Ionis's partnered antisense drug sefaxersen hitting its Phase 3 interim endpoint in IgA nephropathy with Roche.]]></description>
       <pubDate>Fri, 25 Sep 2026 06:00:00 -0000</pubDate>
