@@ -28,6 +28,20 @@
     <itunes:image href="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/cover.jpg"/>
     <!-- Add new <item> blocks below this line, newest first -->
     <item>
+      <title>SHTG Digest — Tuesday October 6, 2026</title>
+      <description><![CDATA[A thin cycle on both fronts — no new top-tier lipid papers after dedup, so this episode leans on two next-tier LPL papers (one showing FCS patients from Ionis' Balance trial carry less Lp(a) than genetics would predict), and the trade press had no new SHTG, Arrowhead, Alnylam or Ionis stories in the last five days.]]></description>
+      <pubDate>Tue, 06 Oct 2026 06:00:00 -0000</pubDate>
+      <guid isPermaLink="false">shtg-digest-2026-10-06</guid>
+      <enclosure
+        url="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/episodes/shtg-podcast-2026-10-06.mp3"
+        length="4982400"
+        type="audio/mpeg"/>
+      <itunes:title>SHTG Digest — Tuesday October 6, 2026</itunes:title>
+      <itunes:duration>5:11</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>SHTG Digest — Friday October 2, 2026</title>
       <description><![CDATA[A thin cycle on both fronts — the only top-tier lipid paper is the NEJM letter showing one-year durability of CTX310, CRISPR Therapeutics' one-time ANGPTL3 knockout, and the trade press ran no new SHTG, Arrowhead, Alnylam or Ionis stories in the five-day window.]]></description>
       <pubDate>Fri, 02 Oct 2026 06:00:00 -0000</pubDate>
