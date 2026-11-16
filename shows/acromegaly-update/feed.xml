@@ -28,6 +28,20 @@
     <itunes:image href="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/shows/acromegaly-update/cover.jpg"/>
     <!-- Add new <item> blocks below this line, newest first -->
     <item>
+      <title>Acromegaly Update — Monday November 16, 2026</title>
+      <description><![CDATA[Another incremental week for acromegaly research, led by evidence that upper-limb joint damage is nearly universal in patients and an early AI voice test for diagnosis, while rare disease industry news was dominated by deal-making (Lilly's up-to-$1.5B Calytrix buyout, argenx's Unnatural Products acquisition), a positive pivotal hepatitis delta readout from Vir, and Novo's sickle cell filing.]]></description>
+      <pubDate>Mon, 16 Nov 2026 06:00:00 -0000</pubDate>
+      <guid isPermaLink="false">acromegaly-update-2026-11-16</guid>
+      <enclosure
+        url="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/shows/acromegaly-update/episodes/2026-11-16.mp3"
+        length="6488510"
+        type="audio/mpeg"/>
+      <itunes:title>Acromegaly Update — Monday November 16, 2026</itunes:title>
+      <itunes:duration>7:00</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Acromegaly Update — Monday November 9, 2026</title>
       <description><![CDATA[A quiet week for top-tier acromegaly papers, with a useful surgical-outcome predictor and a new treatment-landscape review, while rare disease industry news was dominated by setbacks: a failed Becker muscular dystrophy trial, deep Ultragenyx layoffs, and a new safety signal for Zolgensma.]]></description>
       <pubDate>Mon, 09 Nov 2026 06:00:00 -0000</pubDate>
