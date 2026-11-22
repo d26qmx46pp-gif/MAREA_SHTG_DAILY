@@ -28,6 +28,20 @@
     <itunes:image href="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/cover.jpg"/>
     <!-- Add new <item> blocks below this line, newest first -->
     <item>
+      <title>SHTG Digest — Sunday November 22, 2026</title>
+      <description><![CDATA[A thin, second-tier week. A large Rader-lab Mendelian randomization study ties genetic ANGPTL3/ANGPTL4 inhibition and LPL enhancement to lower CKD risk, and a modeling paper claims plozasiran beats olezarsen on reaching TG <500 mg/dL in FCS. On the industry side, the only in-window story is the FDA approval of Regeneron's Alnylam-discovered siRNA Livsayis (cemdisiran), which is platform news, not lipid news.]]></description>
+      <pubDate>Sun, 22 Nov 2026 06:00:00 -0000</pubDate>
+      <guid isPermaLink="false">shtg-digest-2026-11-22</guid>
+      <enclosure
+        url="https://d26qmx46pp-gif.github.io/MAREA_SHTG_DAILY/episodes/shtg-podcast-2026-11-22.mp3"
+        length="5758848"
+        type="audio/mpeg"/>
+      <itunes:title>SHTG Digest — Sunday November 22, 2026</itunes:title>
+      <itunes:duration>6:00</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>SHTG Digest — Tuesday October 6, 2026</title>
       <description><![CDATA[A thin cycle on both fronts — no new top-tier lipid papers after dedup, so this episode leans on two next-tier LPL papers (one showing FCS patients from Ionis' Balance trial carry less Lp(a) than genetics would predict), and the trade press had no new SHTG, Arrowhead, Alnylam or Ionis stories in the last five days.]]></description>
       <pubDate>Tue, 06 Oct 2026 06:00:00 -0000</pubDate>
